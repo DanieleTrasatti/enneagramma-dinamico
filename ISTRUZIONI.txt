@@ -1,0 +1,43 @@
+IL VIAGGIO DELL'ESSERE — Sito sull'Enneagramma (versione DT4)
+==========================================================
+
+STRUTTURA DELLE CARTELLE
+sito_enneagramma/
+├── index.html
+├── simbolo.html
+├── tipi.html
+├── triadi-tipi.html
+├── cammino.html
+├── origini.html
+├── metodo.html
+├── ISTRUZIONI.txt
+├── css/
+│   └── style.css
+└── assets/
+    └── img/
+        ├── 01_simbolo_enneagramma.png
+        ├── 02_legge_ottava.png
+        ├── 03_triadi.png
+        ├── 04_cammino_integrazione.png
+        └── 05_tessere_nove_tipi.png
+
+CONTENUTO DELLE PAGINE (7 pagine)
+  index.html         Home — Inizia il viaggio
+  simbolo.html       Il simbolo (forme, numero 3, numero 7, legge del sette)
+  metodo.html        Come funziona (Essenza, ferita, personalità)
+  triadi-tipi.html   Triadi e Tipi (ali, stress, integrazione, triadi, fasi)
+  tipi.html          I nove tipi (schede integrate: Motivazione/Luce/Ombra)
+  cammino.html       Il cammino di crescita
+  origini.html       Origini dell'Enneagramma (Gurdjieff, Ichazo, Naranjo, Riso-Hudson...)
+  css/style.css      Tema v5.1 (variante A)
+  assets/img/        5 immagini originali
+  ISTRUZIONI.txt     Questo file
+
+PUBBLICAZIONE SU GITHUB PAGES
+  1. github.com → New repository → "enneagramma-sito" → pubblico → Create.
+  2. "uploading an existing file" → trascina TUTTI i file e le cartelle.
+  3. Settings → Pages → Source: branch main, /(root) → Save.
+  4. Dopo 1-2 minuti: https://tuonome.github.io/enneagramma-sito/
+
+VERIFICHE: apertura da smartphone, immagini visibili, tutti i link funzionanti.
+MODIFICHE: testi nei .html; colori in css/style.css (sezione :root).
