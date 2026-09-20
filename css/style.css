@@ -11,7 +11,7 @@ img{max-width:100%;height:auto;border-radius:12px}
 a{color:#6B4F96}
 nav{position:sticky;top:0;z-index:10;background:#E3D2A6;border-bottom:2px solid #D9CBAF;box-shadow:0 2px 6px rgba(53,44,64,.10)}
 nav .inner{max-width:960px;margin:0 auto;display:flex;flex-wrap:wrap;gap:4px;align-items:center;padding:10px 16px}
-nav .logo{font-family:Georgia,serif;font-weight:bold;color:#6B4F96;margin-right:auto;font-size:18px;text-decoration:none}
+nav .logo{font-family:Georgia,serif;font-weight:bold;color:#6B4F96;margin-right:28px;font-size:18px;text-decoration:none;white-space:nowrap}
 nav a.nl{padding:6px 10px;border-radius:8px;text-decoration:none;font-size:14px;color:#352C40}
 nav a.nl:hover{background:#f6ead0}
 nav a.nl.active{background:#6B4F96;color:#fff}
