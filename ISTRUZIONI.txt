@@ -22,7 +22,8 @@ sito_enneagramma/
         ├── 04_cammino_integrazione.png
         ├── 05_tessere_nove_tipi.png
         ├── 06_test_diamante.png
-        └── 07_tipi_stella.png
+        ├── 07_tipi_stella.png
+        └── 08_webmaster_email.png
 
 CONTENUTO DELLE PAGINE (8 pagine)
   index.html         Home — Inizia il viaggio
@@ -33,15 +34,44 @@ CONTENUTO DELLE PAGINE (8 pagine)
   cammino.html       Il cammino di crescita
   origini.html       Origini dell'Enneagramma (Gurdjieff, Ichazo, Naranjo, Riso-Hudson...)
   test.html          Test (tappa conclusiva del viaggio: questionario e istruzioni)
-  css/style.css      Tema v5.1 (variante A)
-  assets/img/        5 immagini originali
+  css/style.css      Tema v5 (versione DT5) — tutte le pagine lo caricano con ?v=5
+  assets/img/        8 immagini originali
   ISTRUZIONI.txt     Questo file
+
+IL PERCORSO DEL VIAGGIO (tappe in sequenza)
+  Home → Il simbolo → Come funziona → Triadi e Tipi → I nove tipi
+  → Il cammino → Origini → Test → (il cerchio ricomincia) → Home
+  Il Test è la tappa conclusiva: origini.html rimanda a test.html,
+  e test.html chiude il cerchio rimandando alla Home.
+
+NOTE IMPORTANTI
+- FOOTER EMAIL: nel footer di ogni pagina l'email del webmaster è
+  l'immagine assets/img/08_webmaster_email.png (contiene solo
+  l'indirizzo, senza scritta "Webmaster:" prima). NON scrivere mai
+  l'indirizzo email in chiaro nell'HTML: antivirus e filtri web lo
+  oscurano sostituendolo con "[email protected]".
+- La riga email nel footer è centrata (regola footer .webmaster in
+  style.css); la sua altezza segue il testo (regola img.wm-mail).
+- Bottone Test nella pagina test.html: collegamento esterno
+  cleanuri.com/em4Ej7 (questionario) e bottone stella verso la
+  pagina dei nove tipi.
 
 PUBBLICAZIONE SU GITHUB PAGES
   1. github.com → New repository → "enneagramma-sito" → pubblico → Create.
-  2. "uploading an existing file" → trascina TUTTI i file e le cartelle.
+  2. "uploading an existing file" → trascina TUTTI i file e le cartelle,
+     mantenendo la struttura: le pagine nella root, style.css in css/,
+     le immagini in assets/img/.
   3. Settings → Pages → Source: branch main, /(root) → Save.
   4. Dopo 1-2 minuti: https://tuonome.github.io/enneagramma-sito/
 
-VERIFICHE: apertura da smartphone, immagini visibili, tutti i link funzionanti.
-MODIFICHE: testi nei .html; colori in css/style.css (sezione :root).
+VERIFICHE: apertura da smartphone, immagini visibili, tutti i link
+funzionanti, footer con email leggibile in tutte le pagine.
+MODIFICHE: testi nei .html; colori in css/style.css (sezione :root);
+dopo ogni modifica ricorda che le pagine caricano il CSS con ?v=5
+(aumentare il numero se il browser mostra il vecchio stile).
+
+CRONOLOGIA VERSIONI
+  DT4 → baseline iniziale del progetto.
+  DT5 → footer con email come immagine anti-oscuramento; Test reso
+        tappa conclusiva del viaggio; eliminata la frase guida-menu
+        dalla Home; email webmaster: danieletrasattirm@gmail.com.
