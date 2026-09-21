@@ -132,3 +132,6 @@ nav a.nl:hover{border-color:#352C40}
 
 /* Bottone secondario più piccolo */
 .test-btn.sm img{width:190px}
+
+/* Riga webmaster nel footer (centrata) */
+footer .webmaster{margin:10px auto 0;max-width:960px;text-align:center;font-style:normal;font-weight:600}
