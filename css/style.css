@@ -55,7 +55,7 @@ ul.blist li{margin:6px 0}
 .fig figcaption{font-size:13px;color:#7A6A55;font-style:italic;margin-top:6px}
 .persona{margin:10px 0;padding-left:14px;border-left:3px solid #F0E5C8}
 .persona b{color:#6B4F96}
-footer{background:#E9DCC3;margin-top:48px;padding:26px 16px;text-align:center;font-size:13px;color:#7A6A55}
+footer{background:#E3D2A6;border-top:2px solid #D9CBAF;margin-top:48px;padding:8px 16px;text-align:center;font-size:12.5px;line-height:1.4;color:#352C40}
 footer .note{max-width:960px;margin:0 auto;font-style:italic}
 @media (max-width:560px){ main h1{font-size:27px} .hero h1{font-size:29px} }
 
@@ -134,7 +134,7 @@ nav a.nl:hover{border-color:#352C40}
 .test-btn.sm img{width:190px}
 
 /* Riga webmaster nel footer (centrata) */
-footer .webmaster{margin:8px auto 0;max-width:960px;text-align:center}
+footer .webmaster{margin:3px auto 0;max-width:960px;text-align:center}
 
 /* Email webmaster come immagine (anti-oscuramento): altezza come il testo della nota */
-footer .webmaster img.wm-mail{height:.95em;width:auto;vertical-align:-0.12em}
+footer .webmaster img.wm-mail{height:.9em;width:auto;vertical-align:-0.1em}
