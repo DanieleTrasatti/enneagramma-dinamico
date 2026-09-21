@@ -1,4 +1,4 @@
-IL VIAGGIO DELL'ESSERE — Sito sull'Enneagramma (versione DT5)
+IL VIAGGIO DELL'ESSERE — Sito sull'Enneagramma (versione DT6)
 ==========================================================
 
 STRUTTURA DELLE CARTELLE
@@ -34,7 +34,7 @@ CONTENUTO DELLE PAGINE (8 pagine)
   cammino.html       Il cammino di crescita
   origini.html       Origini dell'Enneagramma (Gurdjieff, Ichazo, Naranjo, Riso-Hudson...)
   test.html          Test (tappa conclusiva del viaggio: questionario e istruzioni)
-  css/style.css      Tema v5 (versione DT5) — tutte le pagine lo caricano con ?v=5
+  css/style.css      Tema v6 (versione DT6) — tutte le pagine lo caricano con ?v=6
   assets/img/        8 immagini originali
   ISTRUZIONI.txt     Questo file
 
@@ -51,7 +51,12 @@ NOTE IMPORTANTI
   l'indirizzo email in chiaro nell'HTML: antivirus e filtri web lo
   oscurano sostituendolo con "[email protected]".
 - La riga email nel footer è centrata (regola footer .webmaster in
-  style.css); la sua altezza segue il testo (regola img.wm-mail).
+  style.css); l'immagine è ridotta all'altezza del testo della nota
+  (regola img.wm-mail: height .95em), così non attira più attenzione
+  della scritta del footer.
+- FOOTER TESTO: la frase "con la divulgazione di Don Richard Riso e
+  Russ Hudson" inizia a capo (tag <br> nel paragrafo footer .note),
+  senza virgola precedente.
 - Bottone Test nella pagina test.html: collegamento esterno
   cleanuri.com/em4Ej7 (questionario) e bottone stella verso la
   pagina dei nove tipi.
@@ -67,7 +72,7 @@ PUBBLICAZIONE SU GITHUB PAGES
 VERIFICHE: apertura da smartphone, immagini visibili, tutti i link
 funzionanti, footer con email leggibile in tutte le pagine.
 MODIFICHE: testi nei .html; colori in css/style.css (sezione :root);
-dopo ogni modifica ricorda che le pagine caricano il CSS con ?v=5
+dopo ogni modifica ricorda che le pagine caricano il CSS con ?v=6
 (aumentare il numero se il browser mostra il vecchio stile).
 
 CRONOLOGIA VERSIONI
@@ -75,3 +80,7 @@ CRONOLOGIA VERSIONI
   DT5 → footer con email come immagine anti-oscuramento; Test reso
         tappa conclusiva del viaggio; eliminata la frase guida-menu
         dalla Home; email webmaster: danieletrasattirm@gmail.com.
+  DT6 → immagine email ridotta alla grandezza del testo del footer;
+        footer: "con la divulgazione di Don Richard Riso e Russ
+        Hudson" a capo senza virgola; CSS caricato con ?v=6.
+        Consegna: file singoli, non zip.
