@@ -134,4 +134,7 @@ nav a.nl:hover{border-color:#352C40}
 .test-btn.sm img{width:190px}
 
 /* Riga webmaster nel footer (centrata) */
-footer .webmaster{margin:10px auto 0;max-width:960px;text-align:center;font-style:normal;font-weight:600}
+footer .webmaster{margin:8px auto 0;max-width:960px;text-align:center}
+
+/* Email webmaster come immagine (anti-oscuramento): altezza come il testo della nota */
+footer .webmaster img.wm-mail{height:.95em;width:auto;vertical-align:-0.12em}
