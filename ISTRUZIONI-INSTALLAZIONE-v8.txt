@@ -1,0 +1,70 @@
+================================================================================
+ IL VIAGGIO DELL'ESSERE — AGGIORNAMENTO v8
+ Sostituzione di "Donatore" con "Altruista" (testi e grafiche)
+================================================================================
+
+1. COSA CONTIENE QUESTA VERSIONE
+--------------------------------------------------------------------------------
+Modifica richiesta: il Tipo 2 dell'Enneagramma viene denominato "l'Altruista"
+al posto di "Il Donatore", in tutti i contenuti testuali e in tutte le grafiche.
+
+File modificati rispetto alla v7 (SOLO questi vanno caricati sul sito):
+
+  A) PAGINE HTML (2 file)
+     - tipi.html .................. tessera + scheda del Tipo 2 rinominati;
+                                    versione asset aggiornata a ?v=8
+     - triadi-tipi.html ........... voce "Tipo 2" nella triade emotiva
+                                    rinominata; versione asset ?v=8
+
+  B) IMMAGINI (3 file, in assets/img/)
+     - 01_simbolo_enneagramma.png . etichetta "Altruista" al posto di
+                                    "Donatore" nel cerchio del simbolo
+     - 03_triadi.png .............. "2 — l'Altruista" nella triade emotiva
+     - 05_tessere_nove_tipi.png ... "L'ALTRUISTA" nell'intestatura della
+                                    tessera del Tipo 2
+
+File NON modificati (non serve caricarli): index.html, simbolo.html,
+metodo.html, cammino.html, origini.html, test.html, css/style.css.
+
+Nota sulla versione: il numero di versione (?v=8) nei due HTML serve solo a
+forzare il ricaricamento della cache del foglio di stile nei browser dei
+visitatori. Il file css/style.css NON e' stato toccato: non e' necessario
+caricarlo di nuovo.
+
+2. STRUTTURA DELLA CARTELLA (come va caricata sul server)
+--------------------------------------------------------------------------------
+  (root del sito)
+   ├─ tipi.html                  → sovrascrivere il file esistente
+   ├─ triadi-tipi.html           → sovrascrivere il file esistente
+   └─ assets/
+       └─ img/
+           ├─ 01_simbolo_enneagramma.png   → sovrascrivere
+           ├─ 03_triadi.png                → sovrascrivere
+           └─ 05_tessere_nove_tipi.png     → sovrascrivere
+
+3. ISTRUZIONI PASSO-PASSO
+--------------------------------------------------------------------------------
+  1. Effettuare un backup dei file attuali (facoltativo ma consigliato).
+  2. Caricare i 2 file HTML nella root del sito, sovrascrivendo i precedenti.
+  3. Caricare le 3 immagini in assets/img/, sovrascrivendo le precedenti.
+  4. Verifica rapida dopo il caricamento:
+     - aprire https://<tuo-dominio>/tipi.html e controllare la tessera
+       e la scheda del Tipo 2 ("L'ALTRUISTA");
+     - aprire https://<tuo-dominio>/triadi-tipi.html e controllare la voce
+       "Tipo 2 — l'Altruista";
+     - forzare un refresh con Ctrl+F5 (o Cmd+Maiusc+R su Mac) per
+       aggiornare anche le immagini nella cache del browser.
+     - controllare le pagine simbolo.html (grafica del simbolo) e
+       triadi-tipi.html (grafica delle triadi), che usano due delle
+       tre immagini sostituite.
+
+4. NOTE
+--------------------------------------------------------------------------------
+  - Nelle immagini il testo e' stato ricostruito ricalibrando carattere,
+    dimensione, colore e posizione rispetto all'originale, mantenendo
+    lo stile visivo del sito invariato.
+  - Il riferimento al nome "Altruista" gia' presente in origini.html
+    (citazione dei nomi Riso-Hudson) resta invariato e coerente.
+  - Versione precedente di riferimento: v7. Versione attuale: v8.
+
+================================================================================
