@@ -1,4 +1,4 @@
-IL VIAGGIO DELL'ESSERE — Sito sull'Enneagramma (versione DT12)
+IL VIAGGIO DELL'ESSERE — Sito sull'Enneagramma (versione DT13)
 ============================================================
 
 STRUTTURA DELLE CARTELLE
@@ -8,11 +8,11 @@ enneagramma-dinamico/
 ├── cammino.html
 ├── tipi.html
 ├── triadi-tipi.html
+├── test.html
 ├── simbolo.html
 ├── origini.html
-├── test.html
 ├── ISTRUZIONI.txt
-├── ISTRUZIONI-INSTALLAZIONE-v12.txt
+├── ISTRUZIONI-INSTALLAZIONE-v13.txt
 ├── css/
 │   └── style.css
 └── assets/
@@ -33,29 +33,24 @@ CONTENUTO DELLE PAGINE (8 pagine)
   tipi.html          I nove tipi (schede: ferita/passione/fissazione,
                      luce, ombra, dinamiche di stress e integrazione) — Tappa 3
   triadi-tipi.html   Triadi e Tipi (ali, stress, integrazione, triadi, fasi) — Tappa 4
-  simbolo.html       Il simbolo (forme, numero 3, numero 7, legge del sette) — Tappa 5
+  test.html          Test (questionario e istruzioni) — Tappa 5 «lo specchio»
+  simbolo.html       Il simbolo (forme, numero 3, numero 7, legge del sette) — Extra
   origini.html       Origini dell'Enneagramma (Gurdjieff, Ichazo, Naranjo,
                      Riso-Hudson...) — Extra
-  test.html          Test (questionario e istruzioni) — Tappa conclusiva
-  css/style.css      Tema v12 (versione DT12) — tutte le pagine lo caricano con ?v=12
+  css/style.css      Tema v13 (versione DT13) — tutte le pagine lo caricano con ?v=13
   assets/img/        8 immagini originali
 
-IL PERCORSO DEL VIAGGIO (sequenza DT12)
-  Home → Come funziona → Il cammino → I nove tipi → Triadi e Tipi
-  → Il simbolo → Origini → Test → (il cerchio ricomincia) → Home
-  Novità della DT12 rispetto alla DT11: il modello viene prima dello
-  specchio. La prima tappa è «Come funziona» (Essenza, ferita,
-  personalità), la seconda «Il cammino» — la buona notizia che il tipo
-  non è una condanna — e solo alla terza tappa si incontrano i nove
-  tipi, già letti con la chiave di lettura giusta. Correttivi di
-  coerenza: cammino.html rimanda ora alla tappa 3 (I nove tipi) per i
-  numeri dei tipi e alla tappa 4 (Triadi e Tipi) per il meccanismo
-  completo; l'antidoto di tipi.html riferisce le tre parole chiave
-  (ferita, passione, fissazione) alla PRIMA tappa, già letta; il
-  paragrafo finale di triadi-tipi.html resta un riepilogo con richiamo
-  retroattivo al cammino. Il Test resta la tappa conclusiva:
-  origini.html rimanda a test.html e test.html chiude il cerchio
-  rimandando alla pagina dei nove tipi.
+IL PERCORSO DEL VIAGGIO (sequenza DT13)
+  Home → Come funziona → Il cammino → I nove tipi → Triadi e Tipi → Test
+  → Il simbolo → Origini → (il cerchio ricomincia) → Home
+  Novità della DT13 rispetto alla DT12: il Test diventa la QUINTA e ultima
+  tappa del percorso guidato («lo specchio», in cui il viaggio torna su di
+  te); Il simbolo e le Origini diventano gli approfondimenti finali
+  (Extra), raggiungibili dal Test con i pulsanti di proseguimento o
+  direttamente dal menu. Il simbolo non è più una tappa numerata.
+  MENU: la voce «Test» è ora in GRASSETTO in tutte le pagine
+  (regola css: nav a.nl strong{font-weight:800}; etichetta avvolta in
+  <strong> nel menu di ogni pagina).
   Il percorso NON è a senso unico: da ogni pagina si può saltare a
   qualsiasi altra dal menu di navigazione, come sul cerchio.
 
@@ -90,9 +85,10 @@ PUBBLICAZIONE SU GITHUB PAGES
   4. Dopo 1-2 minuti: https://tuonome.github.io/enneagramma-sito/
 
 VERIFICHE: apertura da smartphone, immagini visibili, tutti i link
-funzionanti, footer con email leggibile in tutte le pagine.
+funzionanti, footer con email leggibile in tutte le pagine, voce «Test»
+del menu in grassetto su tutte le pagine.
 MODIFICHE: testi nei .html; colori in css/style.css (sezione :root);
-dopo ogni modifica ricorda che le pagine caricano il CSS con ?v=12
+dopo ogni modifica ricorda che le pagine caricano il CSS con ?v=13
 (aumentare il numero se il browser mostra il vecchio stile).
 
 CRONOLOGIA VERSIONI
@@ -115,8 +111,9 @@ CRONOLOGIA VERSIONI
          finale di triadi-tipi.html riscritto come riepilogo.
          CSS caricato con ?v=11.
   DT12 → il modello viene prima dello specchio: Come funziona tappa 1,
-         Il cammino tappa 2, I nove tipi tappa 3. Correttivi: glossa
-         di cammino.html aggiornata (tipi alla tappa 3, meccanismo
-         alla tappa 4); antidoto di tipi.html che rimanda alla tappa
-         1 già letta. CSS caricato con ?v=12.
+         Il cammino tappa 2, I nove tipi tappa 3. CSS caricato con ?v=12.
+  DT13 → il Test diventa la tappa 5 «lo specchio»; Il simbolo e le
+         Origini diventano Extra (approfondimenti finali dopo il Test);
+         voce «Test» del menu in grassetto su tutte le pagine.
+         CSS aggiornato (regola nav a.nl strong) e caricato con ?v=13.
          (La versione DT9 non è mai stata rilasciata.)

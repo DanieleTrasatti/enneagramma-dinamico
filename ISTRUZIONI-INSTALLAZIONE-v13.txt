@@ -1,0 +1,87 @@
+================================================================================
+ IL VIAGGIO DELL'ESSERE — AGGIORNAMENTO v13
+ Test come tappa 5 + voce «Test» in grassetto nel menu
+================================================================================
+
+1. COSA CONTIENE QUESTA VERSIONE
+--------------------------------------------------------------------------------
+Modifiche richieste:
+  a) IL TEST DIVENTA LA TAPPA 5, prima di Il simbolo e Origini. Nuova
+     sequenza del percorso guidato:
+     Home → Come funziona → Il cammino → I nove tipi → Triadi e Tipi
+     → Test → Il simbolo → Origini → (ritorno alla Home).
+     Il simbolo e le Origini non sono più tappe numerate: sono gli
+     approfondimenti finali (Extra), raggiungibili dal Test col pulsante
+     «Approfondisci: Il simbolo» o dal menu.
+  b) VOCE «TEST» IN GRASSETTO nel menu di TUTTE le pagine: l'etichetta
+     nel menu è avvolta in <strong> e in style.css è stata aggiunta la
+     regola «nav a.nl strong{font-weight:800}». ATTENZIONE: in questa
+     versione va caricato ANCHE il file css/style.css (è cambiato).
+  c) Etichette aggiornate: test.html è «Tappa 5 di 5 · lo specchio»;
+     simbolo.html e origini.html sono marcati «Extra»; il proseguimento
+     finale da origini.html torna alla Home («Il cerchio ricomincia»).
+  d) Home: paragrafo «Da dove cominciare?» aggiornato (Test come
+     chiusura del percorso, simbolo e origini come approfondimenti).
+  e) Menu riordinato: Home · Come funziona · Il cammino · I nove tipi ·
+     Triadi e Tipi · Test (grassetto) · Il simbolo · Origini.
+  f) CSS caricato con ?v=13.
+
+File modificati rispetto alla v12 (questi vanno caricati sul sito):
+  - index.html ........ testo Home; menu con Test in grassetto; ?v=13
+  - metodo.html ....... menu con Test in grassetto; ?v=13
+  - cammino.html ...... menu con Test in grassetto; ?v=13
+  - tipi.html ......... menu con Test in grassetto; ?v=13
+  - triadi-tipi.html .. menu; proseguimento verso Il Test (tappa 5); ?v=13
+  - test.html ......... tappa 5 di 5; proseguimento verso Il simbolo;
+                        menu con Test in grassetto; ?v=13
+  - simbolo.html ...... marcatore «Extra»; menu con Test in grassetto; ?v=13
+  - origini.html ...... chiusura del cerchio verso la Home; menu; ?v=13
+  - css/style.css ..... NUOVA regola «nav a.nl strong{font-weight:800}»
+                        (questa volta il CSS VA caricato!)
+  - ISTRUZIONI.txt ... aggiornato alla DT13
+
+File ELIMINATI: nessuno in questa versione.
+(se ancora presente sul server, eliminare il vecchio duplicato
+ "triadi-tipi (1).html", già rimosso dalla v10).
+
+File NON modificati (non serve caricarli): tutte le immagini in
+assets/img/ e i documenti .docx (restano come riferimento storico DT8).
+
+2. STRUTTURA DELLA CARTELLA (come va caricata sul server)
+--------------------------------------------------------------------------------
+  (root del sito)
+   ├─ index.html .............. → sovrascrivere
+   ├─ metodo.html ............. → sovrascrivere
+   ├─ cammino.html ............ → sovrascrivere
+   ├─ tipi.html ............... → sovrascrivere
+   ├─ triadi-tipi.html ........ → sovrascrivere
+   ├─ test.html ............... → sovrascrivere
+   ├─ simbolo.html ............ → sovrascrivere
+   ├─ origini.html ............ → sovrascrivere
+   └─ css/style.css ........... → SOVRASCRIVERE (contiene la regola del
+                                  grassetto del menu «Test»)
+
+3. ISTRUZIONI PASSO-PASSO
+--------------------------------------------------------------------------------
+  1. Effettuare un backup dei file attuali (facoltativo ma consigliato).
+  2. Caricare i 8 file HTML E css/style.css, sovrascrivendo i precedenti.
+  3. Verifica rapida dopo il caricamento:
+     - da Triadi e Tipi il pulsante «Continua il viaggio» porta al Test;
+     - dal Test il pulsante porta a Il simbolo («Extra · la mappa»);
+     - da Il simbolo si prosegue verso Origini, da Origini si torna
+       alla Home («Il cerchio ricomincia»);
+     - la voce «Test» del menu è in GRASSETTO su tutte le pagine
+       (se non lo fosse, forzare il refresh con Ctrl+F5);
+     - percorrere tutta la sequenza: metodo → cammino → tipi → triadi →
+       test → simbolo → origini → home.
+
+4. NOTE
+--------------------------------------------------------------------------------
+  - Il pulsante «Inizia il questionario» nella pagina Test rimane
+    invariato: punta al questionario esterno.
+  - Dalla pagina Test si può comunque tornare ai nove tipi in qualsiasi
+    momento dal menu o dai pulsanti interni alla pagina.
+  - Versione precedente di riferimento: v12. Versione attuale: v13.
+    (La v9 non è mai stata rilasciata.)
+
+================================================================================

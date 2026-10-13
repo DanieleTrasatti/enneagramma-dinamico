@@ -1,8 +1,7 @@
 # enneagramma-dinamico
-Enneagramma — Il Viaggio dell'Essere (versione DT12).
+Enneagramma — Il Viaggio dell'Essere (versione DT13).
 
-Novità v12: il modello viene prima dello specchio — nuovo ordine:
-metodo → cammino → tipi → triadi → simbolo → origini → test.
-Correttivi: glossa di cammino.html (tipi alla tappa 3, meccanismo alla
-tappa 4); antidoto di tipi.html che rimanda alla prima tappa già letta.
-Vedi ISTRUZIONI.txt e ISTRUZIONI-INSTALLAZIONE-v12.txt.
+Novità v13: il Test è la tappa 5 «lo specchio», prima di Il simbolo e
+Origini (che diventano Extra/approfondimenti finali); la voce «Test»
+del menu è in grassetto su tutte le pagine (nuova regola CSS).
+Vedi ISTRUZIONI.txt e ISTRUZIONI-INSTALLAZIONE-v13.txt.
