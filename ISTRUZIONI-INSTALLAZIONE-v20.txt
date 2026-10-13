@@ -1,0 +1,53 @@
+================================================================================
+ IL VIAGGIO DELL'ESSERE — AGGIORNAMENTO v20
+ Tappa 2 rinominata: da «perché» a «dinamica»
+================================================================================
+
+1. COSA CONTIENE QUESTA VERSIONE
+--------------------------------------------------------------------------------
+Modifiche richieste:
+  a) Etichetta della tappa 2 (pagina Come funziona): da «il «perché»»
+     a «la «dinamica»». Aggiornati:
+     - traccia di metodo.html ("Tappa del percorso: la «dinamica»…");
+     - proseguimento di simbolo.html ("Tappa 2 di 5 · «dinamica»");
+     - paragrafo «Da dove cominciare?» della Home.
+  b) Numero di versione aggiornato a v20 (?v=20 nelle pagine).
+
+File modificati rispetto alla v19 (questi vanno caricati sul sito):
+  - metodo.html ........ ?v=20
+  - simbolo.html ....... ?v=20
+  - index.html ......... ?v=20
+  - cammino.html ....... ?v=20
+  - tipi.html .......... ?v=20
+  - triadi-tipi.html ... ?v=20
+  - origini.html ....... ?v=20
+  - test.html .......... ?v=20
+  - ISTRUZIONI.txt .... aggiornato alla DT20
+
+File ELIMINATI: nessuno.
+(se ancora presente sul server, eliminare il vecchio duplicato
+ "triadi-tipi (1).html", già rimosso dalla v10).
+
+File NON modificati (non serve caricarli): css/style.css (nessuna
+modifica), immagini in assets/img/, documenti .docx (DT8).
+
+2. ISTRUZIONI PASSO-PASSO
+--------------------------------------------------------------------------------
+  1. Backup dei file attuali (facoltativo ma consigliato).
+  2. Caricare i 9 file HTML/txt sopra elencati, sovrascrivendo.
+  3. Verifica rapida:
+     - nella pagina Come funziona la traccia dice «la «dinamica»»;
+     - a fondo della pagina Il simbolo la seconda tappa è «dinamica»;
+     - forzare un refresh con Ctrl+F5.
+
+3. NOTE
+--------------------------------------------------------------------------------
+  - Il nome proprio "perché" nel testo ordinario (es. «perché il tipo
+    non è una condanna») è rimasto invariato: è cambiata solo
+    l'etichetta della tappa.
+  - Percorso invariato: Home → Il simbolo → Come funziona → Il cammino →
+    I nove tipi → Triadi e Tipi → Origini → Test.
+  - Consegna solo tramite archivi zip, come da convenzione v15.
+  - Versione precedente: v19. Versione attuale: v20.
+
+================================================================================

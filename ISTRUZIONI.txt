@@ -1,4 +1,4 @@
-IL VIAGGIO DELL'ESSERE — Sito sull'Enneagramma (versione DT18)
+IL VIAGGIO DELL'ESSERE — Sito sull'Enneagramma (versione DT20)
 ============================================================
 
 STRUTTURA DELLE CARTELLE
@@ -12,7 +12,7 @@ enneagramma-dinamico/
 ├── origini.html
 ├── test.html
 ├── ISTRUZIONI.txt
-├── ISTRUZIONI-INSTALLAZIONE-v18.txt
+├── ISTRUZIONI-INSTALLAZIONE-v20.txt
 ├── css/
 │   └── style.css
 └── assets/
@@ -40,12 +40,21 @@ CONTENUTO DELLE PAGINE (8 pagine)
   origini.html       Origini dell'Enneagramma (Gurdjieff, Ichazo, Naranjo,
                      Riso-Hudson...) — Extra
   test.html          Test (questionario e istruzioni) — Tappa conclusiva
-  css/style.css      Tema v18 (versione DT18) — tutte le pagine lo caricano con ?v=18
+  css/style.css      Tema v20 (versione DT20) — tutte le pagine lo caricano con ?v=20
   assets/img/        8 immagini originali
 
-IL PERCORSO DEL VIAGGIO (sequenza DT18)
+IL PERCORSO DEL VIAGGIO (sequenza DT20)
   Home → Il simbolo → Come funziona → Il cammino → I nove tipi
   → Triadi e Tipi → Origini → Test → (il cerchio ricomincia) → Home
+  Novità della DT20 rispetto alla DT19:
+  m) ETICHETTA RINOMINATA: la tappa 2 (metodo) non si chiama più
+     «perché» ma «dinamica» («la dinamica»): traccia di metodo.html,
+     proseguimento di simbolo.html, paragrafo della Home aggiornati.
+  Novità della DT19 rispetto alla DT18:
+  l) ORNAMENTI DELLA BOX FORMULE: i rombi a 4 punte sono diventati
+     STELLE A 9 PUNTE (clip-path CSS, richiamo all'Enneagramma) con
+     riempimento giallo oro più morbido (#F2CF82) e bordo lilla
+     ottenuto con drop-shadow (outline a stella).
   Novità della DT18 rispetto alla DT17:
   i) BOX DELLE FORMULE (pagina Il simbolo): sfondo crema chiaro tra il
      bianco e il crema della pagina (#FCF8EF); cornice a doppia linea
@@ -128,7 +137,7 @@ funzionanti, footer con email leggibile in tutte le pagine, voce «Test»
 del menu in grassetto, separatore APPROFONDIMENTI visibile nella pagina
 Il simbolo.
 MODIFICHE: testi nei .html; colori in css/style.css (sezione :root);
-dopo ogni modifica ricorda che le pagine caricano il CSS con ?v=18
+dopo ogni modifica ricorda che le pagine caricano il CSS con ?v=20
 (aumentare il numero se il browser mostra il vecchio stile).
 
 CRONOLOGIA VERSIONI
@@ -169,4 +178,6 @@ CRONOLOGIA VERSIONI
          separatore. Nuova regola CSS .formula-box. CSS con ?v=17.
   DT18 → box formule: sfondo crema chiaro, cornice doppia lilla con
          rombi dorati. CSS con ?v=18.
+  DT19 → ornamenti a 9 punte con giallo oro più morbido. CSS con ?v=19.
+  DT20 → tappa 2 rinominata: da «perché» a «dinamica». CSS con ?v=20.
          (La versione DT9 non è mai stata rilasciata.)
