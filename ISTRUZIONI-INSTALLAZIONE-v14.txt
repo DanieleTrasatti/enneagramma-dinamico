@@ -1,0 +1,102 @@
+================================================================================
+ IL VIAGGIO DELL'ESSERE — AGGIORNAMENTO v14
+ Il simbolo dopo Home con APPROFONDIMENTI separati + Test per ultimo
+================================================================================
+
+1. COSA CONTIENE QUESTA VERSIONE
+--------------------------------------------------------------------------------
+Modifiche richieste:
+  a) IL SIMBOLO SUBITO DOPO HOME. Nuova sequenza:
+     Home → Il simbolo → Come funziona → Il cammino → I nove tipi
+     → Triadi e Tipi → Origini → Test.
+  b) PAGINA IL SIMBOLO RIPARTITA: dopo la frase «L'Enneagramma incorpora
+     e integra l'energia simbolica del numero 3 e quella del numero 7,
+     componendo un simbolo a 9 poli» (e il suo riepilogo a elenco) c'è
+     ora:
+       - il link di scorciatoia «Continua: Origini dell'Enneagramma →»
+         (per chi vuole saltare la teoria);
+       - un SEPARATORE GRAFICO EVIDENTE con il titolo APPROFONDIMENTI;
+       - tutta la teoria profonda (NUMERO 3, NUMERO 9, legge del sette,
+         esempi) sotto il separatore.
+     A fondo pagina il link «Continua: Origini dell'Enneagramma →» è
+     rimasto (secondo link), accanto al proseguimento principale verso
+     Come funziona.
+  c) IL TEST È L'ULTIMA PAGINA del percorso (tappa conclusiva).
+  d) Menu: Home · Il simbolo · Come funziona · Il cammino · I nove tipi ·
+     Triadi e Tipi · Origini · Test (voce «Test» in grassetto, come v13).
+  e) Etichette tappa: 1 «che cosa» (simbolo), 2 «perché» (metodo),
+     3 «come si cresce» (cammino), 4 «chi sono io» (tipi), 5 «come si
+     muove» (triadi); Origini = Extra; Test = tappa conclusiva.
+     Rimandi interni aggiornati (glossa cammino: tipi tappa 4,
+     meccanismo tappa 5; antidoto tipi: «seconda tappa»; frecce tipi:
+     «quinta tappa»).
+  f) CSS caricato con ?v=14; nuove regole CSS (.deep-dive, .deep-line,
+     .deep-title, .skip-deep, .next .alt).
+
+File modificati rispetto alla v13 (questi vanno caricati sul sito):
+  - index.html ........ menu; testo Home; Tappa 1 -> Il simbolo; ?v=14
+  - simbolo.html ...... tappa 1 di 5; scorciatoia «Continua: Origini»;
+                        separatore APPROFONDIMENTI; fondo pagina con
+                        proseguimento a Come funziona + link Origini; ?v=14
+  - metodo.html ....... tappa 2 di 5; menu; ?v=14
+  - cammino.html ...... tappa 3 di 5; glossa aggiornata (tappa 4 / tappa 5);
+                        menu; ?v=14
+  - tipi.html ......... tappa 4 di 5; antidoto «seconda tappa»; frecce
+                        «quinta tappa»; menu; ?v=14
+  - triadi-tipi.html .. tappa 5 di 5; proseguimento verso Origini; menu; ?v=14
+  - origini.html ...... proseguimento verso il Test (tappa conclusiva);
+                        menu; ?v=14
+  - test.html ......... tappa conclusiva; chiusura del cerchio verso la
+                        Home; menu; ?v=14
+  - css/style.css ..... nuove regole: .deep-dive, .deep-line, .deep-title,
+                        .skip-deep, .next .alt (il CSS VA caricato!)
+  - ISTRUZIONI.txt ... aggiornato alla DT14
+
+File ELIMINATI: nessuno in questa versione.
+(se ancora presente sul server, eliminare il vecchio duplicato
+ "triadi-tipi (1).html", già rimosso dalla v10).
+
+File NON modificati (non serve caricarli): tutte le immagini in
+assets/img/ e i documenti .docx (restano come riferimento storico DT8).
+
+2. STRUTTURA DELLA CARTELLA (come va caricata sul server)
+--------------------------------------------------------------------------------
+  (root del sito)
+   ├─ index.html .............. → sovrascrivere
+   ├─ simbolo.html ............ → sovrascrivere
+   ├─ metodo.html ............. → sovrascrivere
+   ├─ cammino.html ............ → sovrascrivere
+   ├─ tipi.html ............... → sovrascrivere
+   ├─ triadi-tipi.html ........ → sovrascrivere
+   ├─ origini.html ............ → sovrascrivere
+   ├─ test.html ............... → sovrascrivere
+   └─ css/style.css ........... → SOVRASCRIVERE (contiene il separatore
+                                  APPROFONDIMENTI e la scorciatoia)
+
+3. ISTRUZIONI PASSO-PASSO
+--------------------------------------------------------------------------------
+  1. Effettuare un backup dei file attuali (facoltativo ma consigliato).
+  2. Caricare i 8 file HTML E css/style.css, sovrascrivendo i precedenti.
+  3. Verifica rapida dopo il caricamento:
+     - dalla Home il pulsante «Continua il viaggio» porta a Il simbolo;
+     - nella pagina Il simbolo, sopra il separatore APPROFONDIMENTI,
+       compare il link «Continua: Origini dell’Enneagramma →»; il
+       separatore mostra il titolo APPROFONDIMENTI tra due linee;
+     - a fondo pagina del simbolo ci sono entrambi i link (Come funziona
+       e Origini);
+     - da Triadi e Tipi si prosegue verso Origini, da Origini verso il
+       Test, dal Test si torna alla Home;
+     - la voce «Test» del menu è in grassetto su tutte le pagine;
+     - forzare un refresh con Ctrl+F5 (o Cmd+Maiusc+R su Mac).
+
+4. NOTE
+--------------------------------------------------------------------------------
+  - Il separatore APPROFONDIMENTI è solo grafico: la pagina resta un
+    unico file (simbolo.html), non sono state create pagine nuove.
+  - La scorciatoia «Continua: Origini» salta metodo, cammino, tipi e
+    triadi: va bene per il lettore incuriosito dal simbolo, ma il
+    percorso completo resta quello guidato.
+  - Versione precedente di riferimento: v13. Versione attuale: v14.
+    (La v9 non è mai stata rilasciata.)
+
+================================================================================

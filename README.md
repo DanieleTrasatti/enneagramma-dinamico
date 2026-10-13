@@ -1,7 +1,8 @@
 # enneagramma-dinamico
-Enneagramma — Il Viaggio dell'Essere (versione DT13).
+Enneagramma — Il Viaggio dell'Essere (versione DT14).
 
-Novità v13: il Test è la tappa 5 «lo specchio», prima di Il simbolo e
-Origini (che diventano Extra/approfondimenti finali); la voce «Test»
-del menu è in grassetto su tutte le pagine (nuova regola CSS).
-Vedi ISTRUZIONI.txt e ISTRUZIONI-INSTALLAZIONE-v13.txt.
+Novità v14: Il simbolo torna subito dopo Home come tappa 1, con la teoria
+separata dietro un separatore grafico «APPROFONDIMENTI» e scorciatoia
+«Continua: Origini» prima del separatore e a fondo pagina; il Test è
+l'ultima pagina del percorso. Nuove regole CSS (.deep-dive, .skip-deep,
+.next .alt). Vedi ISTRUZIONI.txt e ISTRUZIONI-INSTALLAZIONE-v14.txt.
