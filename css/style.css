@@ -149,6 +149,6 @@ footer .webmaster img.wm-mail{height:.9em;width:auto;vertical-align:-0.1em}
 .formula-box{position:relative;max-width:460px;margin:0 auto 34px;padding:22px 30px;background:#FCF8EF;border:4px double var(--lilla);border-radius:18px;text-align:center;box-shadow:0 3px 14px rgba(53,44,64,.12)}
 .formula-box p{margin:8px 0;font-size:16px;color:#352C40}
 
-.formula-box::before,.formula-box::after{content:"";position:absolute;left:50%;transform:translateX(-50%);width:18px;height:18px;background:#F2CF82;clip-path:polygon(50.0% 2.0%,56.8% 31.2%,80.9% 13.2%,67.3% 40.0%,97.3% 41.7%,69.7% 53.5%,91.6% 74.0%,62.9% 65.3%,66.4% 95.1%,50.0% 70.0%,33.6% 95.1%,37.1% 65.3%,8.4% 74.0%,30.3% 53.5%,2.7% 41.7%,32.7% 40.0%,19.1% 13.2%,43.2% 31.2%);filter:drop-shadow(1.5px 0 0 var(--lilla)) drop-shadow(-1.5px 0 0 var(--lilla)) drop-shadow(0 1.5px 0 var(--lilla)) drop-shadow(0 -1.5px 0 var(--lilla))}
-.formula-box::before{top:-9px}
-.formula-box::after{bottom:-9px}
+.formula-box::before,.formula-box::after{content:"";position:absolute;left:50%;transform:translateX(-50%) rotate(45deg);width:12px;height:12px;background:#F2CF82;border:2px solid var(--lilla)}
+.formula-box::before{top:-8px}
+.formula-box::after{bottom:-8px}
