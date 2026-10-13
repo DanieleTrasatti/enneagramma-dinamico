@@ -1,4 +1,4 @@
-IL VIAGGIO DELL'ESSERE — Sito sull'Enneagramma (versione DT14)
+IL VIAGGIO DELL'ESSERE — Sito sull'Enneagramma (versione DT16)
 ============================================================
 
 STRUTTURA DELLE CARTELLE
@@ -12,7 +12,7 @@ enneagramma-dinamico/
 ├── origini.html
 ├── test.html
 ├── ISTRUZIONI.txt
-├── ISTRUZIONI-INSTALLAZIONE-v14.txt
+├── ISTRUZIONI-INSTALLAZIONE-v16.txt
 ├── css/
 │   └── style.css
 └── assets/
@@ -34,17 +34,28 @@ CONTENUTO DELLE PAGINE (8 pagine)
   metodo.html        Come funziona (Essenza, ferita, personalità) — Tappa 2
   cammino.html       Il cammino di crescita — Tappa 3
   tipi.html          I nove tipi (schede: ferita/passione/fissazione,
-                     luce, ombra, dinamiche di stress e integrazione) — Tappa 4
+                     luce, ombra, dinamiche di stress e integrazione;
+                     antidoto anti-oroscopo in evidenza) — Tappa 4
   triadi-tipi.html   Triadi e Tipi (ali, stress, integrazione, triadi, fasi) — Tappa 5
   origini.html       Origini dell'Enneagramma (Gurdjieff, Ichazo, Naranjo,
                      Riso-Hudson...) — Extra
   test.html          Test (questionario e istruzioni) — Tappa conclusiva
-  css/style.css      Tema v14 (versione DT14) — tutte le pagine lo caricano con ?v=14
+  css/style.css      Tema v16 (versione DT16) — tutte le pagine lo caricano con ?v=16
   assets/img/        8 immagini originali
 
-IL PERCORSO DEL VIAGGIO (sequenza DT14)
+IL PERCORSO DEL VIAGGIO (sequenza DT16)
   Home → Il simbolo → Come funziona → Il cammino → I nove tipi
   → Triadi e Tipi → Origini → Test → (il cerchio ricomincia) → Home
+  Novità della DT16 rispetto alla DT15:
+  g) PAGINA IL SIMBOLO: eliminata la scorciatoia verso Origini. Prima
+     del separatore APPROFONDIMENTI resta solo il link «Continua il
+     viaggio: Come funziona →» (senza la domanda «Preferisci saltare
+     la parte teorica?»); a fondo pagina è rimasto solo il
+     proseguimento principale verso Come funziona.
+  Novità della DT15 rispetto alla DT14:
+  f) RIMOSSO da tipi.html il paragrafo «Come leggere le schede»: resta
+     solo l'antidoto in evidenza (la frase «Il tipo non descrive ciò che
+     sei: descrive ciò che fai per proteggerti») prima delle schede.
   Novità della DT14 rispetto alla DT13:
   a) IL SIMBOLO TORNA SUBITO DOPO HOME, come tappa 1 «che cosa», ma la
      pagina è stata ripartita: introduzione leggera (forme, nove punti,
@@ -106,7 +117,7 @@ funzionanti, footer con email leggibile in tutte le pagine, voce «Test»
 del menu in grassetto, separatore APPROFONDIMENTI visibile nella pagina
 Il simbolo.
 MODIFICHE: testi nei .html; colori in css/style.css (sezione :root);
-dopo ogni modifica ricorda che le pagine caricano il CSS con ?v=14
+dopo ogni modifica ricorda che le pagine caricano il CSS con ?v=16
 (aumentare il numero se il browser mostra il vecchio stile).
 
 CRONOLOGIA VERSIONI
@@ -137,4 +148,9 @@ CRONOLOGIA VERSIONI
          «Continua: Origini» prima del separatore e a fondo pagina;
          IL TEST È L'ULTIMA PAGINA. Nuove regole CSS (.deep-dive,
          .skip-deep, .next .alt). CSS caricato con ?v=14.
+  DT15 → rimosso da tipi.html il paragrafo «Come leggere le schede»
+         (resta l'antidoto in evidenza). CSS caricato con ?v=15.
+  DT16 → pagina Il simbolo: eliminata la scorciatoia «Continua: Origini»
+         (prima del separatore e a fondo pagina); resta solo
+         «Continua il viaggio: Come funziona →». CSS con ?v=16.
          (La versione DT9 non è mai stata rilasciata.)

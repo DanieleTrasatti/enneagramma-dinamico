@@ -1,8 +1,7 @@
 # enneagramma-dinamico
-Enneagramma — Il Viaggio dell'Essere (versione DT14).
+Enneagramma — Il Viaggio dell'Essere (versione DT16).
 
-Novità v14: Il simbolo torna subito dopo Home come tappa 1, con la teoria
-separata dietro un separatore grafico «APPROFONDIMENTI» e scorciatoia
-«Continua: Origini» prima del separatore e a fondo pagina; il Test è
-l'ultima pagina del percorso. Nuove regole CSS (.deep-dive, .skip-deep,
-.next .alt). Vedi ISTRUZIONI.txt e ISTRUZIONI-INSTALLAZIONE-v14.txt.
+Novità v16: pagina Il simbolo senza la scorciatoia verso Origini —
+prima del separatore APPROFONDIMENTI e a fondo pagina resta solo
+«Continua il viaggio: Come funziona →». Percorso invariato.
+Vedi ISTRUZIONI.txt e ISTRUZIONI-INSTALLAZIONE-v16.txt.

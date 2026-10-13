@@ -1,0 +1,61 @@
+================================================================================
+ IL VIAGGIO DELL'ESSERE — AGGIORNAMENTO v16
+ Pagina Il simbolo: eliminata la scorciatoia verso Origini
+================================================================================
+
+1. COSA CONTIENE QUESTA VERSIONE
+--------------------------------------------------------------------------------
+Modifiche richieste:
+  a) simbolo.html, PRIMA del separatore APPROFONDIMENTI:
+     - rimossa la domanda «Preferisci saltare la parte teorica?»;
+     - il link ora è «Continua il viaggio: Come funziona →»
+       (stessa frase di fondo pagina, verso metodo.html);
+     il separatore APPROFONDIMENTI e i contenuti teorici restano
+     invariati.
+  b) simbolo.html, A FONDO PAGINA: rimosso il secondo link
+     «Continua: Origini dell'Enneagramma →»; resta solo il
+     proseguimento principale «Continua il viaggio: Come funziona →».
+     La pagina Il simbolo non rimanda più a Origini in nessun punto.
+  c) Numero di versione aggiornato a v16 (?v=16 nelle pagine).
+
+File modificati rispetto alla v15 (questi vanno caricati sul sito):
+  - simbolo.html ....... ?v=16
+  - index.html ......... ?v=16
+  - metodo.html ........ ?v=16
+  - cammino.html ....... ?v=16
+  - tipi.html .......... ?v=16
+  - triadi-tipi.html ... ?v=16
+  - origini.html ....... ?v=16
+  - test.html .......... ?v=16
+  - ISTRUZIONI.txt .... aggiornato alla DT16
+
+File ELIMINATI: nessuno.
+(se ancora presente sul server, eliminare il vecchio duplicato
+ "triadi-tipi (1).html", già rimosso dalla v10).
+
+File NON modificati (non serve caricarli): css/style.css (le regole
+.skip-deep e .next .alt restano nel foglio di stile ma non sono più
+usate; nessun problema a lasciarle), immagini in assets/img/, .docx.
+
+2. ISTRUZIONI PASSO-PASSO
+--------------------------------------------------------------------------------
+  1. Backup dei file attuali (facoltativo ma consigliato).
+  2. Caricare i 9 file sopra elencati nella root del sito, sovrascrivendo.
+  3. Verifica rapida:
+     - nella pagina Il simbolo, sopra il separatore APPROFONDIMENTI,
+       compare solo il link «Continua il viaggio: Come funziona →»
+       (niente «Preferisci saltare…», niente «Continua: Origini»);
+     - a fondo pagina c'è un solo link: «Continua il viaggio:
+       Come funziona →»;
+     - forzare un refresh con Ctrl+F5.
+
+3. NOTE
+--------------------------------------------------------------------------------
+  - Struttura del percorso invariata:
+    Home → Il simbolo → Come funziona → Il cammino → I nove tipi →
+    Triadi e Tipi → Origini → Test.
+  - Le tappe e le etichette sono invariate rispetto alla v15.
+  - Consegna solo tramite archivi zip, come da convenzione v15.
+  - Versione precedente: v15. Versione attuale: v16.
+
+================================================================================
