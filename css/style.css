@@ -15,6 +15,13 @@ nav .logo{font-family:Georgia,serif;font-weight:bold;color:#6B4F96;margin-right:
 nav a.nl{padding:6px 10px;border-radius:8px;text-decoration:none;font-size:14px;color:#352C40}
 nav a.nl:hover{background:#f6ead0}
 nav a.nl.active{background:#6B4F96;color:#fff}
+nav a.nl strong{font-weight:800}
+.skip-deep{text-align:center;margin:16px 0 0}
+.skip-deep a{font-weight:700;color:#6B4F96}
+.deep-dive{display:flex;align-items:center;gap:16px;margin:28px 0 20px}
+.deep-line{flex:1;height:2px;background:#6B4F96;opacity:.45;border-radius:2px}
+.deep-title{margin:0;font-size:15px;letter-spacing:5px;color:#6B4F96;font-weight:800;white-space:nowrap}
+.next .alt{display:inline-block;margin-top:10px;font-weight:700;color:#6B4F96;font-size:.95em}
 main{max-width:960px;margin:0 auto;padding:32px 16px 56px}
 .traccia{font-style:italic;font-size:14px;color:#352C40;margin-bottom:20px}
 .traccia .dot{color:#E5C04B;font-style:normal}
