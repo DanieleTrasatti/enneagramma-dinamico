@@ -18,9 +18,9 @@ nav a.nl.active{background:#6B4F96;color:#fff}
 nav a.nl strong{font-weight:800}
 .skip-deep{text-align:center;margin:16px 0 0}
 .skip-deep a{font-weight:700;color:#6B4F96}
-.deep-dive{display:flex;align-items:center;gap:16px;margin:28px 0 20px}
+.deep-dive{display:flex;align-items:center;gap:16px;margin:64px 0 26px}
 .deep-line{flex:1;height:2px;background:#6B4F96;opacity:.45;border-radius:2px}
-.deep-title{margin:0;font-size:15px;letter-spacing:5px;color:#6B4F96;font-weight:800;white-space:nowrap}
+.deep-title{margin:0;font-size:22px;letter-spacing:6px;color:#6B4F96;font-weight:800;white-space:nowrap}
 .next .alt{display:inline-block;margin-top:10px;font-weight:700;color:#6B4F96;font-size:.95em}
 main{max-width:960px;margin:0 auto;padding:32px 16px 56px}
 .traccia{font-style:italic;font-size:14px;color:#352C40;margin-bottom:20px}
@@ -145,3 +145,6 @@ footer .webmaster{margin:3px auto 0;max-width:960px;text-align:center}
 
 /* Email webmaster come immagine (anti-oscuramento): altezza come il testo della nota */
 footer .webmaster img.wm-mail{height:.9em;width:auto;vertical-align:-0.1em}
+
+.formula-box{max-width:440px;margin:0 auto 30px;padding:18px 26px;background:#fff;border:2px solid #6B4F96;border-radius:14px;text-align:center}
+.formula-box p{margin:8px 0;font-size:16px;color:#352C40}
