@@ -1,17 +1,18 @@
-IL VIAGGIO DELL'ESSERE — Sito sull'Enneagramma (versione DT7)
-==========================================================
+IL VIAGGIO DELL'ESSERE — Sito sull'Enneagramma (versione DT10)
+============================================================
 
 STRUTTURA DELLE CARTELLE
-sito_enneagramma/
+enneagramma-dinamico/
 ├── index.html
-├── simbolo.html
 ├── tipi.html
+├── metodo.html
 ├── triadi-tipi.html
 ├── cammino.html
+├── simbolo.html
 ├── origini.html
 ├── test.html
-├── metodo.html
 ├── ISTRUZIONI.txt
+├── ISTRUZIONI-INSTALLAZIONE-v10.txt
 ├── css/
 │   └── style.css
 └── assets/
@@ -26,23 +27,32 @@ sito_enneagramma/
         └── 08_webmaster_email.png
 
 CONTENUTO DELLE PAGINE (8 pagine)
-  index.html         Home — Inizia il viaggio
-  simbolo.html       Il simbolo (forme, numero 3, numero 7, legge del sette)
-  metodo.html        Come funziona (Essenza, ferita, personalità)
-  triadi-tipi.html   Triadi e Tipi (ali, stress, integrazione, triadi, fasi)
-  tipi.html          I nove tipi (schede integrate: Motivazione/Luce/Ombra)
-  cammino.html       Il cammino di crescita
-  origini.html       Origini dell'Enneagramma (Gurdjieff, Ichazo, Naranjo, Riso-Hudson...)
-  test.html          Test (tappa conclusiva del viaggio: questionario e istruzioni)
-  css/style.css      Tema v7 (versione DT7) — tutte le pagine lo caricano con ?v=7
+  index.html         Home — Inizia il viaggio (mappa del percorso)
+  tipi.html          I nove tipi (schede: ferita/passione/fissazione,
+                     luce, ombra, dinamiche di stress e integrazione) — Tappa 1
+  metodo.html        Come funziona (Essenza, ferita, personalità) — Tappa 2
+  triadi-tipi.html   Triadi e Tipi (ali, stress, integrazione, triadi, fasi) — Tappa 3
+  cammino.html       Il cammino di crescita — Tappa 4
+  simbolo.html       Il simbolo (forme, numero 3, numero 7, legge del sette) — Tappa 5
+  origini.html       Origini dell'Enneagramma (Gurdjieff, Ichazo, Naranjo,
+                     Riso-Hudson...) — Extra
+  test.html          Test (questionario e istruzioni) — Tappa conclusiva
+  css/style.css      Tema v10 (versione DT10) — tutte le pagine lo caricano con ?v=10
   assets/img/        8 immagini originali
-  ISTRUZIONI.txt     Questo file
 
-IL PERCORSO DEL VIAGGIO (tappe in sequenza)
-  Home → Il simbolo → Come funziona → Triadi e Tipi → I nove tipi
-  → Il cammino → Origini → Test → (il cerchio ricomincia) → Home
-  Il Test è la tappa conclusiva: origini.html rimanda a test.html,
-  e test.html chiude il cerchio rimandando alla Home.
+IL PERCORSO DEL VIAGGIO (sequenza DT10)
+  Home → I nove tipi → Come funziona → Triadi e Tipi → Il cammino
+  → Il simbolo → Origini → Test → (il cerchio ricomincia) → Home
+  Novità della DT10: il percorso parte dai nove tipi (risponde subito
+  alla domanda dell'utente) e rimanda il simbolo alla quinta tappa,
+  dopo il cammino. In tipi.html è inserito l'«antidoto» anti-oroscopo
+  (il tipo è una strategia, non un'identità) e la spiegazione del senso
+  delle frecce di integrazione/disintegrazione; la stessa spiegazione
+  è ripresa in triadi-tipi.html. Il Test resta la tappa conclusiva:
+  origini.html rimanda a test.html e test.html chiude il cerchio
+  rimandando alla pagina dei nove tipi.
+  Il percorso NON è a senso unico: da ogni pagina si può saltare a
+  qualsiasi altra dal menu di navigazione, come sul cerchio.
 
 NOTE IMPORTANTI
 - FOOTER EMAIL: nel footer di ogni pagina l'email del webmaster è
@@ -63,8 +73,8 @@ NOTE IMPORTANTI
   l'immagine email e' rigenerata nello stesso colore scuro e in
   carattere normale (non grassetto).
 - Bottone Test nella pagina test.html: collegamento esterno
-  cleanuri.com/em4Ej7 (questionario) e bottone stella verso la
-  pagina dei nove tipi.
+  danieletrasatti.github.io/Enneagramma/ (questionario) e bottone
+  stella verso la pagina dei nove tipi.
 
 PUBBLICAZIONE SU GITHUB PAGES
   1. github.com → New repository → "enneagramma-sito" → pubblico → Create.
@@ -77,15 +87,24 @@ PUBBLICAZIONE SU GITHUB PAGES
 VERIFICHE: apertura da smartphone, immagini visibili, tutti i link
 funzionanti, footer con email leggibile in tutte le pagine.
 MODIFICHE: testi nei .html; colori in css/style.css (sezione :root);
-dopo ogni modifica ricorda che le pagine caricano il CSS con ?v=7
+dopo ogni modifica ricorda che le pagine caricano il CSS con ?v=10
 (aumentare il numero se il browser mostra il vecchio stile).
 
 CRONOLOGIA VERSIONI
-  DT4 → baseline iniziale del progetto.
-  DT5 → footer con email come immagine anti-oscuramento; Test reso
-        tappa conclusiva del viaggio; eliminata la frase guida-menu
-        dalla Home; email webmaster: danieletrasattirm@gmail.com.
-  DT6 → immagine email ridotta alla grandezza del testo del footer;
-        footer: "con la divulgazione di Don Richard Riso e Russ
-        Hudson" a capo senza virgola; CSS caricato con ?v=7.
-        Consegna: file singoli, non zip.
+  DT4  → baseline iniziale del progetto.
+  DT5  → footer con email come immagine anti-oscuramento; Test reso
+         tappa conclusiva del viaggio; eliminata la frase guida-menu
+         dalla Home; email webmaster: danieletrasattirm@gmail.com.
+  DT6  → immagine email ridotta alla grandezza del testo del footer;
+         footer: "con la divulgazione di Don Richard Riso e Russ
+         Hudson" a capo senza virgola; CSS caricato con ?v=7.
+         Consegna: file singoli, non zip.
+  DT8  → Tipo 2 rinominato "l'Altruista" in tutti i testi e nelle
+         grafiche (CSS caricato con ?v=8).
+  DT10 → NUOVA SEQUENZA DEL VIAGGIO: I nove tipi per primi, poi Come
+         funziona, Triadi e Tipi, Il cammino, Il simbolo, Origini, Test.
+         Aggiunti: antidoto anti-oroscopo in tipi.html; spiegazione del
+         senso delle frecce (integrazione/disintegrazione) in tipi.html
+         e triadi-tipi.html; eliminato il file duplicato
+         "triadi-tipi (1).html". CSS caricato con ?v=10.
+         (La versione DT9 non è mai stata rilasciata.)

@@ -1,0 +1,2 @@
+Eliminare dal server il file duplicato: triadi-tipi (1).html
+(non più presente nel progetto dalla versione DT10/v10).
