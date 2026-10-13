@@ -1,0 +1,60 @@
+================================================================================
+ IL VIAGGIO DELL'ESSERE — AGGIORNAMENTO v17
+ Pagina Il simbolo: formule in box centrata, titolo APPROFONDIMENTI più grande
+================================================================================
+
+1. COSA CONTIENE QUESTA VERSIONE
+--------------------------------------------------------------------------------
+Modifiche richieste:
+  a) Pagina Il simbolo: più spazio tra il link «Continua il viaggio:
+     Come funziona →» e il separatore APPROFONDIMENTI (margine
+     aumentato da 28px a 64px).
+  b) Titolo APPROFONDIMENTI in carattere più grande: 22px (era 15px),
+     letter-spacing 6px.
+  c) Le due formule — «ENNEAGRAMMA → 3 + 6 = 9» e «LEGGE DEL 7 →
+     7 + 2 = 9» — spostate dall'introduzione in una BOX/CORNICE viola
+     centrata sotto il titolo APPROFONDIMENTI (nuova regola CSS
+     .formula-box). Le frecce mantengono lo stile originale
+     (span.freccia).
+  d) Numero di versione aggiornato a v17 (?v=17 nelle pagine).
+
+File modificati rispetto alla v16 (questi vanno caricati sul sito):
+  - simbolo.html ....... formule nella box; ?v=17
+  - css/style.css ...... regole .deep-dive (margine), .deep-title
+                         (22px) e nuova .formula-box — il CSS VA caricato
+  - index.html ......... ?v=17
+  - metodo.html ........ ?v=17
+  - cammino.html ....... ?v=17
+  - tipi.html .......... ?v=17
+  - triadi-tipi.html ... ?v=17
+  - origini.html ....... ?v=17
+  - test.html .......... ?v=17
+  - ISTRUZIONI.txt .... aggiornato alla DT17
+
+File ELIMINATI: nessuno.
+(se ancora presente sul server, eliminare il vecchio duplicato
+ "triadi-tipi (1).html", già rimosso dalla v10).
+
+File NON modificati (non serve caricarli): immagini in assets/img/,
+documenti .docx (riferimento storico DT8).
+
+2. ISTRUZIONI PASSO-PASSO
+--------------------------------------------------------------------------------
+  1. Backup dei file attuali (facoltativo ma consigliato).
+  2. Caricare i 9 file sopra elencati (8 HTML + css/style.css),
+     sovrascrivendo i precedenti.
+  3. Verifica rapida:
+     - nella pagina Il simbolo, sotto il titolo APPROFONDIMENTI (più
+       grande) compare una cornice viola centrata con le due formule;
+     - tra il link «Continua il viaggio: Come funziona →» e il
+       separatore c'è più spazio;
+     - forzare un refresh con Ctrl+F5.
+
+3. NOTE
+--------------------------------------------------------------------------------
+  - Percorso invariato: Home → Il simbolo → Come funziona → Il cammino →
+    I nove tipi → Triadi e Tipi → Origini → Test.
+  - Consegna solo tramite archivi zip, come da convenzione v15.
+  - Versione precedente: v16. Versione attuale: v17.
+
+================================================================================

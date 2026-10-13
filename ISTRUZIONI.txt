@@ -1,4 +1,4 @@
-IL VIAGGIO DELL'ESSERE — Sito sull'Enneagramma (versione DT16)
+IL VIAGGIO DELL'ESSERE — Sito sull'Enneagramma (versione DT17)
 ============================================================
 
 STRUTTURA DELLE CARTELLE
@@ -12,7 +12,7 @@ enneagramma-dinamico/
 ├── origini.html
 ├── test.html
 ├── ISTRUZIONI.txt
-├── ISTRUZIONI-INSTALLAZIONE-v16.txt
+├── ISTRUZIONI-INSTALLAZIONE-v17.txt
 ├── css/
 │   └── style.css
 └── assets/
@@ -40,12 +40,18 @@ CONTENUTO DELLE PAGINE (8 pagine)
   origini.html       Origini dell'Enneagramma (Gurdjieff, Ichazo, Naranjo,
                      Riso-Hudson...) — Extra
   test.html          Test (questionario e istruzioni) — Tappa conclusiva
-  css/style.css      Tema v16 (versione DT16) — tutte le pagine lo caricano con ?v=16
+  css/style.css      Tema v17 (versione DT17) — tutte le pagine lo caricano con ?v=17
   assets/img/        8 immagini originali
 
-IL PERCORSO DEL VIAGGIO (sequenza DT16)
+IL PERCORSO DEL VIAGGIO (sequenza DT17)
   Home → Il simbolo → Come funziona → Il cammino → I nove tipi
   → Triadi e Tipi → Origini → Test → (il cerchio ricomincia) → Home
+  Novità della DT17 rispetto alla DT16:
+  h) PAGINA IL SIMBOLO: più spazio tra il link «Continua il viaggio:
+     Come funziona →» e il separatore; titolo APPROFONDIMENTI in
+     carattere più grande (22px); le due formule (ENNEAGRAMMA → 3+6=9,
+     LEGGE DEL 7 → 7+2=9) spostate in una box/cornice viola centrata
+     sotto il titolo APPROFONDIMENTI.
   Novità della DT16 rispetto alla DT15:
   g) PAGINA IL SIMBOLO: eliminata la scorciatoia verso Origini. Prima
      del separatore APPROFONDIMENTI resta solo il link «Continua il
@@ -117,7 +123,7 @@ funzionanti, footer con email leggibile in tutte le pagine, voce «Test»
 del menu in grassetto, separatore APPROFONDIMENTI visibile nella pagina
 Il simbolo.
 MODIFICHE: testi nei .html; colori in css/style.css (sezione :root);
-dopo ogni modifica ricorda che le pagine caricano il CSS con ?v=16
+dopo ogni modifica ricorda che le pagine caricano il CSS con ?v=17
 (aumentare il numero se il browser mostra il vecchio stile).
 
 CRONOLOGIA VERSIONI
@@ -153,4 +159,7 @@ CRONOLOGIA VERSIONI
   DT16 → pagina Il simbolo: eliminata la scorciatoia «Continua: Origini»
          (prima del separatore e a fondo pagina); resta solo
          «Continua il viaggio: Come funziona →». CSS con ?v=16.
+  DT17 → pagina Il simbolo: formule in box centrata sotto
+         APPROFONDIMENTI, titolo ingrandito, più spazio prima del
+         separatore. Nuova regola CSS .formula-box. CSS con ?v=17.
          (La versione DT9 non è mai stata rilasciata.)

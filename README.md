@@ -1,7 +1,7 @@
 # enneagramma-dinamico
-Enneagramma — Il Viaggio dell'Essere (versione DT16).
+Enneagramma — Il Viaggio dell'Essere (versione DT17).
 
-Novità v16: pagina Il simbolo senza la scorciatoia verso Origini —
-prima del separatore APPROFONDIMENTI e a fondo pagina resta solo
-«Continua il viaggio: Come funziona →». Percorso invariato.
-Vedi ISTRUZIONI.txt e ISTRUZIONI-INSTALLAZIONE-v16.txt.
+Novità v17: pagina Il simbolo con più spazio prima del separatore,
+titolo APPROFONDIMENTI più grande (22px) e le due formule in una
+box/cornice viola centrata sotto il titolo (nuova regola .formula-box).
+Vedi ISTRUZIONI.txt e ISTRUZIONI-INSTALLAZIONE-v17.txt.
