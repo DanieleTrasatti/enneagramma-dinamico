@@ -1,4 +1,4 @@
-IL VIAGGIO DELL'ESSERE — Sito sull'Enneagramma (versione DT10)
+IL VIAGGIO DELL'ESSERE — Sito sull'Enneagramma (versione DT11)
 ============================================================
 
 STRUTTURA DELLE CARTELLE
@@ -6,13 +6,13 @@ enneagramma-dinamico/
 ├── index.html
 ├── tipi.html
 ├── metodo.html
-├── triadi-tipi.html
 ├── cammino.html
+├── triadi-tipi.html
 ├── simbolo.html
 ├── origini.html
 ├── test.html
 ├── ISTRUZIONI.txt
-├── ISTRUZIONI-INSTALLAZIONE-v10.txt
+├── ISTRUZIONI-INSTALLAZIONE-v11.txt
 ├── css/
 │   └── style.css
 └── assets/
@@ -31,24 +31,28 @@ CONTENUTO DELLE PAGINE (8 pagine)
   tipi.html          I nove tipi (schede: ferita/passione/fissazione,
                      luce, ombra, dinamiche di stress e integrazione) — Tappa 1
   metodo.html        Come funziona (Essenza, ferita, personalità) — Tappa 2
-  triadi-tipi.html   Triadi e Tipi (ali, stress, integrazione, triadi, fasi) — Tappa 3
-  cammino.html       Il cammino di crescita — Tappa 4
+  cammino.html       Il cammino di crescita — Tappa 3
+  triadi-tipi.html   Triadi e Tipi (ali, stress, integrazione, triadi, fasi) — Tappa 4
   simbolo.html       Il simbolo (forme, numero 3, numero 7, legge del sette) — Tappa 5
   origini.html       Origini dell'Enneagramma (Gurdjieff, Ichazo, Naranjo,
                      Riso-Hudson...) — Extra
   test.html          Test (questionario e istruzioni) — Tappa conclusiva
-  css/style.css      Tema v10 (versione DT10) — tutte le pagine lo caricano con ?v=10
+  css/style.css      Tema v11 (versione DT11) — tutte le pagine lo caricano con ?v=11
   assets/img/        8 immagini originali
 
-IL PERCORSO DEL VIAGGIO (sequenza DT10)
-  Home → I nove tipi → Come funziona → Triadi e Tipi → Il cammino
+IL PERCORSO DEL VIAGGIO (sequenza DT11)
+  Home → I nove tipi → Come funziona → Il cammino → Triadi e Tipi
   → Il simbolo → Origini → Test → (il cerchio ricomincia) → Home
-  Novità della DT10: il percorso parte dai nove tipi (risponde subito
-  alla domanda dell'utente) e rimanda il simbolo alla quinta tappa,
-  dopo il cammino. In tipi.html è inserito l'«antidoto» anti-oroscopo
-  (il tipo è una strategia, non un'identità) e la spiegazione del senso
-  delle frecce di integrazione/disintegrazione; la stessa spiegazione
-  è ripresa in triadi-tipi.html. Il Test resta la tappa conclusiva:
+  Novità della DT11 rispetto alla DT10: Il cammino e Triadi e Tipi hanno
+  cambiato ordine — la buona notizia (il tipo non è una condanna) arriva
+  alla tappa 3, le dinamiche complete (ali, stress, integrazione, triadi)
+  alla tappa 4. Per compensare, cammino.html apre la sezione «La direzione
+  di integrazione» con la mini-definizione di punto di stress e punto di
+  integrazione e un rimando a Triadi e Tipi; e il paragrafo finale di
+  triadi-tipi.html è stato riscritto da ponte-in-avanti a riepilogo
+  (il titolo H2 «Perché conoscere la propria triade cambia il lavoro
+  su di sé» è rimasto invariato). In tipi.html il rimando alle triadi
+  è aggiornato a «quarta tappa». Il Test resta la tappa conclusiva:
   origini.html rimanda a test.html e test.html chiude il cerchio
   rimandando alla pagina dei nove tipi.
   Il percorso NON è a senso unico: da ogni pagina si può saltare a
@@ -87,7 +91,7 @@ PUBBLICAZIONE SU GITHUB PAGES
 VERIFICHE: apertura da smartphone, immagini visibili, tutti i link
 funzionanti, footer con email leggibile in tutte le pagine.
 MODIFICHE: testi nei .html; colori in css/style.css (sezione :root);
-dopo ogni modifica ricorda che le pagine caricano il CSS con ?v=10
+dopo ogni modifica ricorda che le pagine caricano il CSS con ?v=11
 (aumentare il numero se il browser mostra il vecchio stile).
 
 CRONOLOGIA VERSIONI
@@ -101,10 +105,15 @@ CRONOLOGIA VERSIONI
          Consegna: file singoli, non zip.
   DT8  → Tipo 2 rinominato "l'Altruista" in tutti i testi e nelle
          grafiche (CSS caricato con ?v=8).
-  DT10 → NUOVA SEQUENZA DEL VIAGGIO: I nove tipi per primi, poi Come
-         funziona, Triadi e Tipi, Il cammino, Il simbolo, Origini, Test.
-         Aggiunti: antidoto anti-oroscopo in tipi.html; spiegazione del
-         senso delle frecce (integrazione/disintegrazione) in tipi.html
-         e triadi-tipi.html; eliminato il file duplicato
+  DT10 → prima riorganizzazione del viaggio: I nove tipi per primi,
+         Il simbolo dopo Il cammino; antidoto anti-oroscopo;
+         spiegazione del senso delle frecce; eliminato il duplicato
          "triadi-tipi (1).html". CSS caricato con ?v=10.
+  DT11 → Il cammino e Triadi e Tipi scambiate (la speranza arriva
+         prima delle dinamiche complete); mini-definizione di punto
+         di stress/integrazione all'apertura della «Direzione di
+         integrazione» in cammino.html; paragrafo finale di
+         triadi-tipi.html riscritto come riepilogo (titolo H2
+         invariato); rimando «quarta tappa» in tipi.html.
+         CSS caricato con ?v=11.
          (La versione DT9 non è mai stata rilasciata.)

@@ -1,0 +1,95 @@
+================================================================================
+ IL VIAGGIO DELL'ESSERE — AGGIORNAMENTO v11
+ Scambio Il cammino ↔ Triadi e Tipi + correttivi di coerenza
+================================================================================
+
+1. COSA CONTIENE QUESTA VERSIONE
+--------------------------------------------------------------------------------
+Modifiche richieste:
+  a) NUOVO ORDINE DELLE TAPPE 3 e 4: il cammino di crescita arriva prima
+     delle dinamiche complete. Nuova sequenza:
+     Home → I nove tipi → Come funziona → Il cammino → Triadi e Tipi
+     → Il simbolo → Origini → Test.
+  b) CORRETTIVO in cammino.html: la sezione «La direzione di integrazione»
+     si apre ora con la mini-definizione di punto di integrazione e punto
+     di stress e con il rimando alla tappa successiva (Triadi e Tipi),
+     così il lettore incontra «l'1 ritrova la gioia del 7» sapendo già
+     cosa significa «salire».
+  c) RIEPILOGO in triadi-tipi.html: il paragrafo finale della pagina è
+     stato riscritto da ponte-in-avanti a riepilogo («Ti lasciamo questa
+     doppia chiave…» + richiamo retroattivo al cammino). Il titolo H2
+     «Perché conoscere la propria triade cambia il lavoro su di sé» è
+     rimasto INVARIATO come da richiesta.
+  d) tipi.html: il rimando alle triadi è aggiornato da «terza tappa» a
+     «quarta tappa».
+  e) Home: il paragrafo «Da dove cominciare?» riflette il nuovo ordine
+     (la buona notizia del cammino arriva prima delle dinamiche).
+  f) Menu di navigazione riordinato in tutte le pagine; etichette tappa
+     aggiornate (cammino = 3, triadi = 4); CSS caricato con ?v=11.
+
+File modificati rispetto alla v10 (SOLO questi vanno caricati sul sito):
+  - index.html ....... paragrafo «Da dove cominciare?»; menu; ?v=11
+  - tipi.html ........ menu; «quarta tappa»; ?v=11
+  - metodo.html ...... menu; proseguimento verso Il cammino; ?v=11
+  - cammino.html ..... tappa 3 di 5; nuovo paragrafo «Due punti chiave,
+                       prima di tutto»; proseguimento verso Triadi e Tipi; ?v=11
+  - triadi-tipi.html . tappa 4 di 5; paragrafo finale riscritto (H2 invariato);
+                       proseguimento verso Il simbolo; ?v=11
+  - simbolo.html ..... menu; ?v=11
+  - origini.html ..... menu; ?v=11
+  - test.html ........ menu; ?v=11
+  - ISTRUZIONI.txt ... aggiornato alla DT11
+
+File ELIMINATI: nessuno in questa versione.
+(se ancora presente sul server, eliminare il vecchio duplicato
+ "triadi-tipi (1).html", già rimosso dalla v10).
+
+File NON modificati (non serve caricarli): css/style.css, tutte le
+immagini in assets/img/, documenti .docx (restano come riferimento
+storico del progetto DT8).
+
+Nota sulla versione: il numero (?v=11) nei HTML serve solo a forzare
+il ricaricamento della cache del foglio di stile nei browser dei
+visitatori. Il file css/style.css NON e' stato toccato: non e'
+necessario caricarlo di nuovo.
+
+2. STRUTTURA DELLA CARTELLA (come va caricata sul server)
+--------------------------------------------------------------------------------
+  (root del sito)
+   ├─ index.html .............. → sovrascrivere
+   ├─ tipi.html ............... → sovrascrivere
+   ├─ metodo.html ............. → sovrascrivere
+   ├─ cammino.html ............ → sovrascrivere
+   ├─ triadi-tipi.html ........ → sovrascrivere
+   ├─ simbolo.html ............ → sovrascrivere
+   ├─ origini.html ............ → sovrascrivere
+   └─ test.html ............... → sovrascrivere
+
+3. ISTRUZIONI PASSO-PASSO
+--------------------------------------------------------------------------------
+  1. Effettuare un backup dei file attuali (facoltativo ma consigliato).
+  2. Caricare i 8 file HTML nella root del sito, sovrascrivendo i precedenti.
+  3. Verifica rapida dopo il caricamento:
+     - da Come funziona, il pulsante «Continua il viaggio» porta ora a
+       Il cammino (non più a Triadi e Tipi);
+     - da Il cammino, il pulsante porta a Triadi e Tipi (non più al Simbolo);
+     - in cammino.html, all'inizio di «La direzione di integrazione»,
+       compare il paragrafo «Due punti chiave, prima di tutto»;
+     - in triadi-tipi.html il titolo H2 è rimasto «Perché conoscere la
+       propria triade cambia il lavoro su di sé» e il paragrafo si chiude
+       con «Ti lasciamo questa doppia chiave…»;
+     - percorrere tutta la sequenza: tipi → metodo → cammino → triadi →
+       simbolo → origini → test → (ritorno ai tipi);
+     - forzare un refresh con Ctrl+F5 (o Cmd+Maiusc+R su Mac).
+
+4. NOTE
+--------------------------------------------------------------------------------
+  - Il menu di navigazione in tutte le pagine è ora: Home · I nove tipi ·
+    Come funziona · Il cammino · Triadi e Tipi · Il simbolo · Origini · Test.
+  - Le etichette di percorso: 1 «chi sono io» (tipi), 2 «perché» (metodo),
+    3 «come si cresce» (cammino), 4 «come si muove» (triadi), 5 «la mappa»
+    (simbolo); Origini = Extra; Test = tappa conclusiva.
+  - Versione precedente di riferimento: v10. Versione attuale: v11.
+    (La v9 non è mai stata rilasciata.)
+
+================================================================================
