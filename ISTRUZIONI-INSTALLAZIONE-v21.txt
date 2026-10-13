@@ -1,0 +1,61 @@
+================================================================================
+ IL VIAGGIO DELL'ESSERE — AGGIORNAMENTO v21
+ Rombi ripristinati nella box + traccia di Come funziona riformattata
+================================================================================
+
+1. COSA CONTIENE QUESTA VERSIONE
+--------------------------------------------------------------------------------
+Modifiche richieste:
+  a) Pagina Il simbolo, box delle formule: ripristinati gli ornamenti a
+     rombo a 4 punte (come nella versione DT18) al posto delle stelle a
+     9 punte; il riempimento resta il giallo oro morbido #F2CF82.
+  b) Pagina Come funziona, traccia riformattata su due righe:
+     «Tappa del percorso: il «come» funziona»
+     a capo: «Essenza, ferita, personalità (Tappa 2 di 5)»
+  c) Etichetta della tappa 2 aggiornata da «dinamica» a «come funziona»
+     anche nel proseguimento a fondo della pagina Il simbolo.
+  d) Numero di versione aggiornato a v21 (?v=21 nelle pagine).
+
+File modificati rispetto alla v20 (questi vanno caricati sul sito):
+  - css/style.css ...... ornamenti box tornati a rombi — il CSS VA caricato
+  - metodo.html ........ traccia riformattata; ?v=21
+  - simbolo.html ....... etichetta tappa 2; ?v=21
+  - index.html ......... ?v=21
+  - cammino.html ....... ?v=21
+  - tipi.html .......... ?v=21
+  - triadi-tipi.html ... ?v=21
+  - origini.html ....... ?v=21
+  - test.html .......... ?v=21
+  - ISTRUZIONI.txt .... aggiornato alla DT21
+
+File ELIMINATI: nessuno.
+(se ancora presente sul server, eliminare il vecchio duplicato
+ "triadi-tipi (1).html", già rimosso dalla v10).
+
+File NON modificati (non serve caricarli): immagini in assets/img/,
+documenti .docx (riferimento storico DT8).
+
+2. ISTRUZIONI PASSO-PASSO
+--------------------------------------------------------------------------------
+  1. Backup dei file attuali (facoltativo ma consigliato).
+  2. Caricare i 9 file sopra elencati (8 HTML + css/style.css),
+     sovrascrivendo i precedenti.
+  3. Verifica rapida:
+     - nella pagina Il simbolo gli ornamenti della box sono tornati
+       rombi a 4 punte color oro morbido;
+     - nella pagina Come funziona la traccia è su due righe
+       («il «come» funziona» / «Essenza, ferita, personalità (Tappa 2 di 5)»);
+     - forzare un refresh con Ctrl+F5.
+
+3. NOTE
+--------------------------------------------------------------------------------
+  - Nel paragrafo della Home la frase «Si prosegue con la «dinamica»…»
+    è stata lasciata invariata perché scorre nel testo; cambiano solo
+    traccia ed etichette di percorso. Se vuoi aggiornarla anche lì,
+    basta dirlo.
+  - Percorso invariato: Home → Il simbolo → Come funziona → Il cammino →
+    I nove tipi → Triadi e Tipi → Origini → Test.
+  - Consegna solo tramite archivi zip, come da convenzione v15.
+  - Versione precedente: v20. Versione attuale: v21.
+
+================================================================================
