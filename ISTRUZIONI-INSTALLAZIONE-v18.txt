@@ -1,0 +1,56 @@
+================================================================================
+ IL VIAGGIO DELL'ESSERE — AGGIORNAMENTO v18
+ Box delle formule: sfondo crema e cornice liberty sobria
+================================================================================
+
+1. COSA CONTIENE QUESTA VERSIONE
+--------------------------------------------------------------------------------
+Modifiche richieste:
+  a) Box delle formule (pagina Il simbolo, sotto APPROFONDIMENTI):
+     - sfondo NON più bianco: crema chiaro #FCF8EF, tra il bianco e il
+       crema di pagina (#F8F1DE);
+     - cornice "movimentata" ma sobria: doppia linea lilla (stile
+       liberty), angoli arrotondati, due rombi dorati con bordo lilla
+       posizionati al centro del bordo superiore e inferiore, leggera
+       ombra per profondità.
+  b) Numero di versione aggiornato a v18 (?v=18 nelle pagine).
+
+File modificati rispetto alla v17 (questi vanno caricati sul sito):
+  - css/style.css ...... restyling .formula-box + pseudo-elementi
+                         (rombi) — il CSS VA caricato
+  - index.html ......... ?v=18
+  - simbolo.html ....... ?v=18
+  - metodo.html ........ ?v=18
+  - cammino.html ....... ?v=18
+  - tipi.html .......... ?v=18
+  - triadi-tipi.html ... ?v=18
+  - origini.html ....... ?v=18
+  - test.html .......... ?v=18
+  - ISTRUZIONI.txt .... aggiornato alla DT18
+
+File ELIMINATI: nessuno.
+(se ancora presente sul server, eliminare il vecchio duplicato
+ "triadi-tipi (1).html", già rimosso dalla v10).
+
+File NON modificati (non serve caricarli): immagini in assets/img/,
+documenti .docx (riferimento storico DT8).
+
+2. ISTRUZIONI PASSO-PASSO
+--------------------------------------------------------------------------------
+  1. Backup dei file attuali (facoltativo ma consigliato).
+  2. Caricare i 9 file sopra elencati (8 HTML + css/style.css),
+     sovrascrivendo i precedenti.
+  3. Verifica rapida:
+     - nella pagina Il simbolo la box delle formule ha sfondo crema
+       chiaro (non bianco), cornice doppia lilla e un rombo dorato
+       sopra e sotto;
+     - forzare un refresh con Ctrl+F5.
+
+3. NOTE
+--------------------------------------------------------------------------------
+  - Percorso invariato: Home → Il simbolo → Come funziona → Il cammino →
+    I nove tipi → Triadi e Tipi → Origini → Test.
+  - Consegna solo tramite archivi zip, come da convenzione v15.
+  - Versione precedente: v17. Versione attuale: v18.
+
+================================================================================

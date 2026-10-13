@@ -1,7 +1,6 @@
 # enneagramma-dinamico
-Enneagramma — Il Viaggio dell'Essere (versione DT17).
+Enneagramma — Il Viaggio dell'Essere (versione DT18).
 
-Novità v17: pagina Il simbolo con più spazio prima del separatore,
-titolo APPROFONDIMENTI più grande (22px) e le due formule in una
-box/cornice viola centrata sotto il titolo (nuova regola .formula-box).
-Vedi ISTRUZIONI.txt e ISTRUZIONI-INSTALLAZIONE-v17.txt.
+Novità v18: box delle formule con sfondo crema chiaro (#FCF8EF) e
+cornice liberty sobria — doppia linea lilla, rombi dorati sopra e
+sotto, leggera ombra. Vedi ISTRUZIONI.txt e ISTRUZIONI-INSTALLAZIONE-v18.txt.

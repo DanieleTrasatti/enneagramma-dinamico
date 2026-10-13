@@ -1,4 +1,4 @@
-IL VIAGGIO DELL'ESSERE — Sito sull'Enneagramma (versione DT17)
+IL VIAGGIO DELL'ESSERE — Sito sull'Enneagramma (versione DT18)
 ============================================================
 
 STRUTTURA DELLE CARTELLE
@@ -12,7 +12,7 @@ enneagramma-dinamico/
 ├── origini.html
 ├── test.html
 ├── ISTRUZIONI.txt
-├── ISTRUZIONI-INSTALLAZIONE-v17.txt
+├── ISTRUZIONI-INSTALLAZIONE-v18.txt
 ├── css/
 │   └── style.css
 └── assets/
@@ -40,12 +40,17 @@ CONTENUTO DELLE PAGINE (8 pagine)
   origini.html       Origini dell'Enneagramma (Gurdjieff, Ichazo, Naranjo,
                      Riso-Hudson...) — Extra
   test.html          Test (questionario e istruzioni) — Tappa conclusiva
-  css/style.css      Tema v17 (versione DT17) — tutte le pagine lo caricano con ?v=17
+  css/style.css      Tema v18 (versione DT18) — tutte le pagine lo caricano con ?v=18
   assets/img/        8 immagini originali
 
-IL PERCORSO DEL VIAGGIO (sequenza DT17)
+IL PERCORSO DEL VIAGGIO (sequenza DT18)
   Home → Il simbolo → Come funziona → Il cammino → I nove tipi
   → Triadi e Tipi → Origini → Test → (il cerchio ricomincia) → Home
+  Novità della DT18 rispetto alla DT17:
+  i) BOX DELLE FORMULE (pagina Il simbolo): sfondo crema chiaro tra il
+     bianco e il crema della pagina (#FCF8EF); cornice a doppia linea
+     lilla con angoli arrotondati e due rombi dorati sopra e sotto
+     (tocco liberty sobrio); leggera ombra.
   Novità della DT17 rispetto alla DT16:
   h) PAGINA IL SIMBOLO: più spazio tra il link «Continua il viaggio:
      Come funziona →» e il separatore; titolo APPROFONDIMENTI in
@@ -123,7 +128,7 @@ funzionanti, footer con email leggibile in tutte le pagine, voce «Test»
 del menu in grassetto, separatore APPROFONDIMENTI visibile nella pagina
 Il simbolo.
 MODIFICHE: testi nei .html; colori in css/style.css (sezione :root);
-dopo ogni modifica ricorda che le pagine caricano il CSS con ?v=17
+dopo ogni modifica ricorda che le pagine caricano il CSS con ?v=18
 (aumentare il numero se il browser mostra il vecchio stile).
 
 CRONOLOGIA VERSIONI
@@ -162,4 +167,6 @@ CRONOLOGIA VERSIONI
   DT17 → pagina Il simbolo: formule in box centrata sotto
          APPROFONDIMENTI, titolo ingrandito, più spazio prima del
          separatore. Nuova regola CSS .formula-box. CSS con ?v=17.
+  DT18 → box formule: sfondo crema chiaro, cornice doppia lilla con
+         rombi dorati. CSS con ?v=18.
          (La versione DT9 non è mai stata rilasciata.)
