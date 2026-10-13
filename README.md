@@ -1,8 +1,8 @@
 # enneagramma-dinamico
-Enneagramma — Il Viaggio dell'Essere (versione DT11).
+Enneagramma — Il Viaggio dell'Essere (versione DT12).
 
-Novità v11: Il cammino e Triadi e Tipi hanno scambiato posizione
-(nuovo ordine: tipi → metodo → cammino → triadi → simbolo → origini → test);
-cammino.html si apre con la mini-definizione di punto di stress/integrazione;
-il paragrafo finale di triadi-tipi.html è un riepilogo (titolo H2 invariato).
-Vedi ISTRUZIONI.txt e ISTRUZIONI-INSTALLAZIONE-v11.txt.
+Novità v12: il modello viene prima dello specchio — nuovo ordine:
+metodo → cammino → tipi → triadi → simbolo → origini → test.
+Correttivi: glossa di cammino.html (tipi alla tappa 3, meccanismo alla
+tappa 4); antidoto di tipi.html che rimanda alla prima tappa già letta.
+Vedi ISTRUZIONI.txt e ISTRUZIONI-INSTALLAZIONE-v12.txt.

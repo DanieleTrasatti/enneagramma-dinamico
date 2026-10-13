@@ -1,0 +1,88 @@
+================================================================================
+ IL VIAGGIO DELL'ESSERE — AGGIORNAMENTO v12
+ Il modello prima dello specchio: Come funziona → Il cammino → I nove tipi
+================================================================================
+
+1. COSA CONTIENE QUESTA VERSIONE
+--------------------------------------------------------------------------------
+Modifiche richieste:
+  a) NUOVO ORDINE DELLE PRIME TRE TAPPE. Nuova sequenza:
+     Home → Come funziona → Il cammino → I nove tipi → Triadi e Tipi
+     → Il simbolo → Origini → Test.
+     Le tappe diventano: 1 «perché» (metodo), 2 «come si cresce»
+     (cammino), 3 «chi sono io» (tipi), 4 «come si muove» (triadi),
+     5 «la mappa» (simbolo).
+  b) CORRETTIVO in cammino.html: la glossa «Due punti chiave, prima di
+     tutto» rimanda ora alla tappa 3 (I nove tipi) per chi non conosce
+     ancora i numeri dei tipi e alla tappa 4 (Triadi e Tipi) per il
+     meccanismo completo.
+  c) CORRETTIVO in tipi.html: l'antidoto anti-oroscopo riferisce le tre
+     parole chiave (ferita, passione, fissazione) alla prima tappa,
+     già letta («già spiegate nella prima tappa — Come funziona»).
+  d) Home: il paragrafo «Da dove cominciare?» riflette il nuovo ordine
+     (modello → buona notizia → specchio → dinamiche → mappa).
+  e) Menu di navigazione riordinato in tutte le pagine; etichette tappa
+     aggiornate; CSS caricato con ?v=12.
+
+File modificati rispetto alla v11 (SOLO questi vanno caricati sul sito):
+  - index.html ....... paragrafo «Da dove cominciare?»; Tappa 1 -> metodo; ?v=12
+  - metodo.html ...... tappa 1 di 5; menu; ?v=12
+  - cammino.html ..... tappa 2 di 5; glossa aggiornata (tappa 3 / tappa 4);
+                       proseguimento verso I nove tipi; ?v=12
+  - tipi.html ........ tappa 3 di 5; antidoto aggiornato («già spiegate nella
+                       prima tappa»); proseguimento verso Triadi e Tipi; ?v=12
+  - triadi-tipi.html . menu; ?v=12 (contenuti invariati: tappa 4, riepilogo)
+  - simbolo.html ..... menu; ?v=12
+  - origini.html ..... menu; ?v=12
+  - test.html ........ menu; ?v=12
+  - ISTRUZIONI.txt ... aggiornato alla DT12
+
+File ELIMINATI: nessuno in questa versione.
+(se ancora presente sul server, eliminare il vecchio duplicato
+ "triadi-tipi (1).html", già rimosso dalla v10).
+
+File NON modificati (non serve caricarli): css/style.css, tutte le
+immagini in assets/img/, documenti .docx (restano come riferimento
+storico del progetto DT8).
+
+Nota sulla versione: il numero (?v=12) nei HTML serve solo a forzare
+il ricaricamento della cache del foglio di stile nei browser dei
+visitatori. Il file css/style.css NON e' stato toccato: non e'
+necessario caricarlo di nuovo.
+
+2. STRUTTURA DELLA CARTELLA (come va caricata sul server)
+--------------------------------------------------------------------------------
+  (root del sito)
+   ├─ index.html .............. → sovrascrivere
+   ├─ metodo.html ............. → sovrascrivere
+   ├─ cammino.html ............ → sovrascrivere
+   ├─ tipi.html ............... → sovrascrivere
+   ├─ triadi-tipi.html ........ → sovrascrivere
+   ├─ simbolo.html ............ → sovrascrivere
+   ├─ origini.html ............ → sovrascrivere
+   └─ test.html ............... → sovrascrivere
+
+3. ISTRUZIONI PASSO-PASSO
+--------------------------------------------------------------------------------
+  1. Effettuare un backup dei file attuali (facoltativo ma consigliato).
+  2. Caricare i 8 file HTML nella root del sito, sovrascrivendo i precedenti.
+  3. Verifica rapida dopo il caricamento:
+     - dalla Home, il pulsante «Continua il viaggio» porta ora a
+       Come funziona (non più a I nove tipi);
+     - da Come funziona si prosegue verso Il cammino, da Il cammino
+       verso I nove tipi, da I nove tipi verso Triadi e Tipi;
+     - in cammino.html la glossa «Due punti chiave, prima di tutto»
+       rimanda alla tappa 3 e alla tappa 4;
+     - in tipi.html l'antidoto dice «già spiegate nella prima tappa»;
+     - percorrere tutta la sequenza: metodo → cammino → tipi → triadi →
+       simbolo → origini → test → (ritorno ai tipi);
+     - forzare un refresh con Ctrl+F5 (o Cmd+Maiusc+R su Mac).
+
+4. NOTE
+--------------------------------------------------------------------------------
+  - Il menu di navigazione in tutte le pagine è ora: Home · Come funziona ·
+    Il cammino · I nove tipi · Triadi e Tipi · Il simbolo · Origini · Test.
+  - Versione precedente di riferimento: v11. Versione attuale: v12.
+    (La v9 non è mai stata rilasciata.)
+
+================================================================================
