@@ -1,4 +1,4 @@
-IL VIAGGIO DELL'ESSERE — Sito sull'Enneagramma (versione DT25)
+IL VIAGGIO DELL'ESSERE — Sito sull'Enneagramma (versione DT26)
 ============================================================
 
 STRUTTURA DELLE CARTELLE
@@ -40,7 +40,7 @@ CONTENUTO DELLE PAGINE (8 pagine)
   origini.html       Origini dell'Enneagramma (Gurdjieff, Ichazo, Naranjo,
                      Riso-Hudson...) — Extra
   test.html          Test (questionario e istruzioni) — Tappa conclusiva
-  css/style.css      Tema v23 (versione DT25) — tutte le pagine lo caricano con ?v=23
+  css/style.css      Tema v23 (versione DT26) — tutte le pagine lo caricano con ?v=23
   assets/img/        8 immagini originali
 
 IL PERCORSO DEL VIAGGIO (sequenza DT23)
@@ -175,6 +175,11 @@ GADGET BILINGUE ITALIANO / ENGLISH (DT25)
 CRONOLOGIA VERSIONI
   DT25 → gadget bilingue: selettore 🇮🇹/🇬🇧 nel menu (Google Translate,
          default italiano). CSS caricato con ?v=25.
+  DT26 → FIX gadget: il proxy translate.goog NON funziona su github.io
+         (errore DNS NXDOMAIN). Sostituito con il widget ufficiale Google
+         Translate che traduce la pagina sul posto (client-side, nessun
+         cambio di dominio). Le bandierine impostano un cookie googtrans
+         e ricaricano la pagina tradotta. CSS caricato con ?v=26.
   DT4  → baseline iniziale del progetto.
   DT5  → footer con email come immagine anti-oscuramento; Test reso
          tappa conclusiva del viaggio; eliminata la frase guida-menu

@@ -1,38 +1,42 @@
 
 ================================================================================
- IL VIAGGIO DELL'ESSERE — AGGIORNAMENTO v25
- Gadget bilingue IT/EN con bandierine (Google Translate)
+ IL VIAGGIO DELL'ESSERE — AGGIORNAMENTO v26 (fix gadget bilingue)
 ================================================================================
-COSA CONTIENE
-  Il sito resta in ITALIANO (base: versione DT23). In alto a destra nel
-  menu di OGNI pagina compare il selettore di lingua: bandierina 🇮🇹
-  (torna all'italiano) e bandierina 🇬🇧 (apre la pagina tradotta in
-  inglese da Google Translate). La traduzione avviene al volo sul sito
-  pubblicato: nessun file inglese da mantenere.
+PERCHE' QUESTO FIX
+  Con la v25, premendo la bandierina 🇬🇧 compariva l'errore
+  "DNS_PROBE_FINISHED_NXDOMAIN" su ...-translate.goog: il proxy di Google
+  Translate NON funziona con i siti ospitati su github.io. 
 
-FILE MODIFICATI rispetto alla v23 (caricare questi):
-  - le 8 pagine HTML (selettore bandierine + script, ?v=25)
-  - css/style.css (nuove regole .lang-switch) — caricare anche questo
-  - ISTRUZIONI.txt, questo file, README.md
+COSA E' CAMBIATO
+  Sostituito il proxy con il WIDGET UFFICIALE GOOGLE TRANSLATE:
+  - la pagina viene tradotta SUL POSTO (client-side), nessun cambio di
+    dominio, nessun DNS esterno: funziona su GitHub Pages e ovunque;
+  - le bandierine 🇮🇹 / 🇬🇧 nel menu impostano un cookie (googtrans) e
+    ricaricano la pagina: 🇬🇧 mostra la traduzione inglese, 🇮🇹 torna
+    all'italiano;
+  - il widget e' caricato da translate.google.com (script ufficiale);
+    nessun file aggiunto nel repository.
 
-FILE AGGIUNTI: NESSUNO (il gadget e' interamente inline nelle pagine:
-  markup delle bandierine + piccola funzione JavaScript switchLang()).
+FILE MODIFICATI rispetto alla v25: le 8 pagine HTML (?v=26), ISTRUZIONI.txt,
+questo file, README.md. File AGGIUNTI: NESSUNO. css/style.css invariato
+(le regole .lang-switch della v25 restano valide).
 
 ISTRUZIONI
-  1. Carica i file sopra elencati nelle rispettive posizioni
-     (le pagine nella root, style.css dentro la cartella css/ minuscola).
-  2. Apri il sito: in alto a destra nel menu compaiono 🇮🇹 e 🇬🇧.
-  3. Clicca 🇬🇧: la pagina si apre tradotta da Google (prima traduzione
-     piu' lenta, poi cacheata). Clicca 🇮🇹 per tornare all'italiano.
-  4. Forza il refresh con Ctrl+F5.
+  1. Carica le 8 pagine HTML nella root del sito (sovrascrivendo quelle
+     della v25). css/style.css non e' cambiato: puoi caricarlo o no.
+  2. Apri il sito e premi Ctrl+F5.
+  3. Clicca 🇬🇧: la pagina si ricarica tradotta in inglese (puo' richiedere
+     alcuni secondi la prima volta). Clicca 🇮🇹 per tornare all'italiano.
+  4. Se il browser blocca il cookie di terze parti, la traduzione potrebbe
+     non attivarsi: consenti i cookie per translate.google.com o prova
+     in una finestra anonima per verificare.
 
-NOTE PER GITHUB PAGES
-  - Nessuna impostazione speciale: GitHub Pages serve il JavaScript
-    inline come qualsiasi altro hosting.
-  - Il proxy di traduzione funziona sia con indirizzi
-    tuonome.github.io/enneagramma-sito sia con domini personalizzati.
-  - Se un giorno sposti il sito su un altro dominio, il gadget
-    funziona lo stesso (l'URL viene costruito dal nome dell'host).
+NOTE
+  - La traduzione e' quella automatica di Google, generata sul momento.
+  - Il widget Google Translate e' ufficialmente in "manutenzione" da parte
+    di Google ma risulta tuttora funzionante; se Google lo disattivasse
+    del tutto, la soluzione definitiva resta la versione DT24-EN con le
+    pagine tradotte a mano.
 
-Versione precedente: v23. Versione attuale: v25.
+Versione precedente: v25. Versione attuale: v26.
 ================================================================================
