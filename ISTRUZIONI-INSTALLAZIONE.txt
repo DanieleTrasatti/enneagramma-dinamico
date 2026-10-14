@@ -1,0 +1,60 @@
+================================================================================
+ IL VIAGGIO DELL'ESSERE — AGGIORNAMENTO v22
+ Premessa sotto APPROFONDIMENTI + rombi ai lati della box
+================================================================================
+
+1. COSA CONTIENE QUESTA VERSIONE
+--------------------------------------------------------------------------------
+Modifiche richieste:
+  a) Pagina Il simbolo: premessa testuale inserita SUBITO DOPO il titolo
+     APPROFONDIMENTI (prima della box delle formule):
+     «L'Enneagramma come lo conosciamo oggi è il risultato del lavoro di
+     psichiatri, psicologi, filosofi, teologi e monaci, che l'hanno portato
+     nel mondo occidentale da prospettive diverse, rendendolo un potente
+     strumento di introspezione psicologica ed evoluzione spirituale
+     basato su leggi cosmiche rappresentate da numeri e simboli
+     universali.»
+  b) Box delle formule: i rombi ornamentali sono ora posizionati al
+     centro del bordo SINISTRO e DESTRO della box (invece che sopra e
+     sotto).
+  c) Numero di versione aggiornato a v22 (?v=23 nelle pagine).
+
+File modificati rispetto alla v22 (questi vanno caricati sul sito):
+  - simbolo.html ....... ?v=23
+  - css/style.css ...... margine superiore box aumentato — il CSS VA caricato
+  - index.html ......... ?v=23
+  - metodo.html ........ ?v=23
+  - cammino.html ....... ?v=23
+  - tipi.html .......... ?v=23
+  - triadi-tipi.html ... ?v=23
+  - origini.html ....... ?v=23
+  - test.html .......... ?v=23
+  - ISTRUZIONI.txt .... aggiornato alla DT23
+
+File ELIMINATI: nessuno.
+(se ancora presente sul server, eliminare il vecchio duplicato
+ "triadi-tipi (1).html", già rimosso dalla v10).
+
+File NON modificati (non serve caricarli): immagini in assets/img/,
+documenti .docx (riferimento storico DT8).
+
+2. ISTRUZIONI PASSO-PASSO
+--------------------------------------------------------------------------------
+  1. Backup dei file attuali (facoltativo ma consigliato).
+  2. Caricare i 9 file sopra elencati (8 HTML + css/style.css),
+     sovrascrivendo i precedenti.
+  3. Verifica rapida:
+     - nella pagina Il simbolo c'è più spazio prima della box delle
+       formule (una riga vuota in più);
+     - forzare un refresh con Ctrl+F5.
+
+3. NOTE
+--------------------------------------------------------------------------------
+  - Percorso invariato: Home → Il simbolo → Come funziona → Il cammino →
+    I nove tipi → Triadi e Tipi → Origini → Test.
+  - Consegna solo tramite archivi zip, come da convenzione v15.
+  - Da questa versione questo file mantiene SEMPRE lo stesso nome
+    (ISTRUZIONI-INSTALLAZIONE.txt), senza numero di versione.
+  - Versione precedente: v22. Versione attuale: v23.
+
+================================================================================

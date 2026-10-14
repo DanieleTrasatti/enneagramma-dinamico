@@ -1,4 +1,4 @@
-IL VIAGGIO DELL'ESSERE — Sito sull'Enneagramma (versione DT22)
+IL VIAGGIO DELL'ESSERE — Sito sull'Enneagramma (versione DT23)
 ============================================================
 
 STRUTTURA DELLE CARTELLE
@@ -12,7 +12,7 @@ enneagramma-dinamico/
 ├── origini.html
 ├── test.html
 ├── ISTRUZIONI.txt
-├── ISTRUZIONI-INSTALLAZIONE-v22.txt
+├── ISTRUZIONI-INSTALLAZIONE.txt
 ├── css/
 │   └── style.css
 └── assets/
@@ -40,12 +40,17 @@ CONTENUTO DELLE PAGINE (8 pagine)
   origini.html       Origini dell'Enneagramma (Gurdjieff, Ichazo, Naranjo,
                      Riso-Hudson...) — Extra
   test.html          Test (questionario e istruzioni) — Tappa conclusiva
-  css/style.css      Tema v22 (versione DT22) — tutte le pagine lo caricano con ?v=22
+  css/style.css      Tema v23 (versione DT23) — tutte le pagine lo caricano con ?v=23
   assets/img/        8 immagini originali
 
-IL PERCORSO DEL VIAGGIO (sequenza DT22)
+IL PERCORSO DEL VIAGGIO (sequenza DT23)
   Home → Il simbolo → Come funziona → Il cammino → I nove tipi
   → Triadi e Tipi → Origini → Test → (il cerchio ricomincia) → Home
+  Novità della DT23 rispetto alla DT22:
+  r) BOX FORMULE: aggiunto spazio extra (una riga) prima della box.
+  s) FILE ISTRUZIONI: da oggi il file delle istruzioni di installazione
+     ha nome FISSO senza numero di versione: ISTRUZIONI-INSTALLAZIONE.txt
+     (rimane uguale a ogni versione).
   Novità della DT22 rispetto alla DT21:
   p) PAGINA IL SIMBOLO: premessa testuale inserita subito dopo il
      titolo APPROFONDIMENTI («L'Enneagramma come lo conosciamo oggi è
@@ -152,7 +157,7 @@ funzionanti, footer con email leggibile in tutte le pagine, voce «Test»
 del menu in grassetto, separatore APPROFONDIMENTI visibile nella pagina
 Il simbolo.
 MODIFICHE: testi nei .html; colori in css/style.css (sezione :root);
-dopo ogni modifica ricorda che le pagine caricano il CSS con ?v=22
+dopo ogni modifica ricorda che le pagine caricano il CSS con ?v=23
 (aumentare il numero se il browser mostra il vecchio stile).
 
 CRONOLOGIA VERSIONI
@@ -201,4 +206,7 @@ CRONOLOGIA VERSIONI
          etichetta tappa 2: «come funziona». CSS con ?v=21.
   DT22 → premessa dopo APPROFONDIMENTI; rombi ai lati della box.
          CSS con ?v=22.
+  DT23 → spazio extra prima della box formule; file istruzioni con
+         nome fisso ISTRUZIONI-INSTALLAZIONE.txt (senza versione).
+         CSS con ?v=23.
          (La versione DT9 non è mai stata rilasciata.)
