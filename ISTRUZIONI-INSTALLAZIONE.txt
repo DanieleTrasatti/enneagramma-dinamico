@@ -1,60 +1,38 @@
+
 ================================================================================
- IL VIAGGIO DELL'ESSERE — AGGIORNAMENTO v22
- Premessa sotto APPROFONDIMENTI + rombi ai lati della box
+ IL VIAGGIO DELL'ESSERE — AGGIORNAMENTO v25
+ Gadget bilingue IT/EN con bandierine (Google Translate)
 ================================================================================
+COSA CONTIENE
+  Il sito resta in ITALIANO (base: versione DT23). In alto a destra nel
+  menu di OGNI pagina compare il selettore di lingua: bandierina 🇮🇹
+  (torna all'italiano) e bandierina 🇬🇧 (apre la pagina tradotta in
+  inglese da Google Translate). La traduzione avviene al volo sul sito
+  pubblicato: nessun file inglese da mantenere.
 
-1. COSA CONTIENE QUESTA VERSIONE
---------------------------------------------------------------------------------
-Modifiche richieste:
-  a) Pagina Il simbolo: premessa testuale inserita SUBITO DOPO il titolo
-     APPROFONDIMENTI (prima della box delle formule):
-     «L'Enneagramma come lo conosciamo oggi è il risultato del lavoro di
-     psichiatri, psicologi, filosofi, teologi e monaci, che l'hanno portato
-     nel mondo occidentale da prospettive diverse, rendendolo un potente
-     strumento di introspezione psicologica ed evoluzione spirituale
-     basato su leggi cosmiche rappresentate da numeri e simboli
-     universali.»
-  b) Box delle formule: i rombi ornamentali sono ora posizionati al
-     centro del bordo SINISTRO e DESTRO della box (invece che sopra e
-     sotto).
-  c) Numero di versione aggiornato a v22 (?v=23 nelle pagine).
+FILE MODIFICATI rispetto alla v23 (caricare questi):
+  - le 8 pagine HTML (selettore bandierine + script, ?v=25)
+  - css/style.css (nuove regole .lang-switch) — caricare anche questo
+  - ISTRUZIONI.txt, questo file, README.md
 
-File modificati rispetto alla v22 (questi vanno caricati sul sito):
-  - simbolo.html ....... ?v=23
-  - css/style.css ...... margine superiore box aumentato — il CSS VA caricato
-  - index.html ......... ?v=23
-  - metodo.html ........ ?v=23
-  - cammino.html ....... ?v=23
-  - tipi.html .......... ?v=23
-  - triadi-tipi.html ... ?v=23
-  - origini.html ....... ?v=23
-  - test.html .......... ?v=23
-  - ISTRUZIONI.txt .... aggiornato alla DT23
+FILE AGGIUNTI: NESSUNO (il gadget e' interamente inline nelle pagine:
+  markup delle bandierine + piccola funzione JavaScript switchLang()).
 
-File ELIMINATI: nessuno.
-(se ancora presente sul server, eliminare il vecchio duplicato
- "triadi-tipi (1).html", già rimosso dalla v10).
+ISTRUZIONI
+  1. Carica i file sopra elencati nelle rispettive posizioni
+     (le pagine nella root, style.css dentro la cartella css/ minuscola).
+  2. Apri il sito: in alto a destra nel menu compaiono 🇮🇹 e 🇬🇧.
+  3. Clicca 🇬🇧: la pagina si apre tradotta da Google (prima traduzione
+     piu' lenta, poi cacheata). Clicca 🇮🇹 per tornare all'italiano.
+  4. Forza il refresh con Ctrl+F5.
 
-File NON modificati (non serve caricarli): immagini in assets/img/,
-documenti .docx (riferimento storico DT8).
+NOTE PER GITHUB PAGES
+  - Nessuna impostazione speciale: GitHub Pages serve il JavaScript
+    inline come qualsiasi altro hosting.
+  - Il proxy di traduzione funziona sia con indirizzi
+    tuonome.github.io/enneagramma-sito sia con domini personalizzati.
+  - Se un giorno sposti il sito su un altro dominio, il gadget
+    funziona lo stesso (l'URL viene costruito dal nome dell'host).
 
-2. ISTRUZIONI PASSO-PASSO
---------------------------------------------------------------------------------
-  1. Backup dei file attuali (facoltativo ma consigliato).
-  2. Caricare i 9 file sopra elencati (8 HTML + css/style.css),
-     sovrascrivendo i precedenti.
-  3. Verifica rapida:
-     - nella pagina Il simbolo c'è più spazio prima della box delle
-       formule (una riga vuota in più);
-     - forzare un refresh con Ctrl+F5.
-
-3. NOTE
---------------------------------------------------------------------------------
-  - Percorso invariato: Home → Il simbolo → Come funziona → Il cammino →
-    I nove tipi → Triadi e Tipi → Origini → Test.
-  - Consegna solo tramite archivi zip, come da convenzione v15.
-  - Da questa versione questo file mantiene SEMPRE lo stesso nome
-    (ISTRUZIONI-INSTALLAZIONE.txt), senza numero di versione.
-  - Versione precedente: v22. Versione attuale: v23.
-
+Versione precedente: v23. Versione attuale: v25.
 ================================================================================

@@ -1,4 +1,4 @@
-IL VIAGGIO DELL'ESSERE — Sito sull'Enneagramma (versione DT23)
+IL VIAGGIO DELL'ESSERE — Sito sull'Enneagramma (versione DT25)
 ============================================================
 
 STRUTTURA DELLE CARTELLE
@@ -40,7 +40,7 @@ CONTENUTO DELLE PAGINE (8 pagine)
   origini.html       Origini dell'Enneagramma (Gurdjieff, Ichazo, Naranjo,
                      Riso-Hudson...) — Extra
   test.html          Test (questionario e istruzioni) — Tappa conclusiva
-  css/style.css      Tema v23 (versione DT23) — tutte le pagine lo caricano con ?v=23
+  css/style.css      Tema v23 (versione DT25) — tutte le pagine lo caricano con ?v=23
   assets/img/        8 immagini originali
 
 IL PERCORSO DEL VIAGGIO (sequenza DT23)
@@ -160,7 +160,21 @@ MODIFICHE: testi nei .html; colori in css/style.css (sezione :root);
 dopo ogni modifica ricorda che le pagine caricano il CSS con ?v=23
 (aumentare il numero se il browser mostra il vecchio stile).
 
+GADGET BILINGUE ITALIANO / ENGLISH (DT25)
+  Il sito resta interamente in ITALIANO, ma nel menu di ogni pagina
+  compare il selettore di lingua con le bandierine 🇮🇹 / 🇬🇧
+  (classe .lang-switch, a destra del menu). La bandierina 🇬🇧 apre la
+  pagina tradotta da Google Translate (proxy translate.goog), la 🇮🇹
+  torna all'originale italiano. Il selettore funziona su qualsiasi
+  dominio (github.io o dominio proprio) perche' l'URL di traduzione
+  viene costruito in JavaScript dal nome dell'host corrente.
+  Non serve alcuna configurazione lato server: carica i file e basta.
+  Nota: la traduzione e' generata da Google al volo sulla pagina
+  pubblicata; la prima traduzione puo' richiedere alcuni secondi.
+
 CRONOLOGIA VERSIONI
+  DT25 → gadget bilingue: selettore 🇮🇹/🇬🇧 nel menu (Google Translate,
+         default italiano). CSS caricato con ?v=25.
   DT4  → baseline iniziale del progetto.
   DT5  → footer con email come immagine anti-oscuramento; Test reso
          tappa conclusiva del viaggio; eliminata la frase guida-menu
