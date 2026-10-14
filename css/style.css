@@ -146,7 +146,7 @@ footer .webmaster{margin:3px auto 0;max-width:960px;text-align:center}
 /* Email webmaster come immagine (anti-oscuramento): altezza come il testo della nota */
 footer .webmaster img.wm-mail{height:.9em;width:auto;vertical-align:-0.1em}
 
-.formula-box{position:relative;max-width:460px;margin:0 auto 34px;padding:22px 30px;background:#FCF8EF;border:4px double var(--lilla);border-radius:18px;text-align:center;box-shadow:0 3px 14px rgba(53,44,64,.12)}
+.formula-box{position:relative;max-width:460px;margin:28px auto 34px;padding:22px 30px;background:#FCF8EF;border:4px double var(--lilla);border-radius:18px;text-align:center;box-shadow:0 3px 14px rgba(53,44,64,.12)}
 .formula-box p{margin:8px 0;font-size:16px;color:#352C40}
 
 .formula-box::before,.formula-box::after{content:"";position:absolute;top:50%;transform:translateY(-50%) rotate(45deg);width:12px;height:12px;background:#F2CF82;border:2px solid var(--lilla)}
