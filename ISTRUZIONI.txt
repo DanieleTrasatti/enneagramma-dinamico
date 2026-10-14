@@ -1,4 +1,4 @@
-IL VIAGGIO DELL'ESSERE — Sito sull'Enneagramma (versione DT21)
+IL VIAGGIO DELL'ESSERE — Sito sull'Enneagramma (versione DT22)
 ============================================================
 
 STRUTTURA DELLE CARTELLE
@@ -12,7 +12,7 @@ enneagramma-dinamico/
 ├── origini.html
 ├── test.html
 ├── ISTRUZIONI.txt
-├── ISTRUZIONI-INSTALLAZIONE-v21.txt
+├── ISTRUZIONI-INSTALLAZIONE-v22.txt
 ├── css/
 │   └── style.css
 └── assets/
@@ -40,12 +40,20 @@ CONTENUTO DELLE PAGINE (8 pagine)
   origini.html       Origini dell'Enneagramma (Gurdjieff, Ichazo, Naranjo,
                      Riso-Hudson...) — Extra
   test.html          Test (questionario e istruzioni) — Tappa conclusiva
-  css/style.css      Tema v21 (versione DT21) — tutte le pagine lo caricano con ?v=21
+  css/style.css      Tema v22 (versione DT22) — tutte le pagine lo caricano con ?v=22
   assets/img/        8 immagini originali
 
-IL PERCORSO DEL VIAGGIO (sequenza DT21)
+IL PERCORSO DEL VIAGGIO (sequenza DT22)
   Home → Il simbolo → Come funziona → Il cammino → I nove tipi
   → Triadi e Tipi → Origini → Test → (il cerchio ricomincia) → Home
+  Novità della DT22 rispetto alla DT21:
+  p) PAGINA IL SIMBOLO: premessa testuale inserita subito dopo il
+     titolo APPROFONDIMENTI («L'Enneagramma come lo conosciamo oggi è
+     il risultato del lavoro di psichiatri, psicologi, filosofi, teologi
+     e monaci… leggi cosmiche rappresentate da numeri e simboli
+     universali»).
+  q) BOX FORMULE: i rombi ornamentali sono passati dal bordo superiore
+     e inferiore al bordo SINISTRO e DESTRO della box.
   Novità della DT21 rispetto alla DT20:
   n) BOX FORMULE: ripristinati i rombi a 4 punte (era la versione DT18),
      mantenendo il giallo oro morbido #F2CF82 introdotto con la DT19.
@@ -144,7 +152,7 @@ funzionanti, footer con email leggibile in tutte le pagine, voce «Test»
 del menu in grassetto, separatore APPROFONDIMENTI visibile nella pagina
 Il simbolo.
 MODIFICHE: testi nei .html; colori in css/style.css (sezione :root);
-dopo ogni modifica ricorda che le pagine caricano il CSS con ?v=21
+dopo ogni modifica ricorda che le pagine caricano il CSS con ?v=22
 (aumentare il numero se il browser mostra il vecchio stile).
 
 CRONOLOGIA VERSIONI
@@ -191,4 +199,6 @@ CRONOLOGIA VERSIONI
          traccia di Come funziona riformattata («il «come» funziona» +
          a capo «Essenza, ferita, personalità (Tappa 2 di 5)»);
          etichetta tappa 2: «come funziona». CSS con ?v=21.
+  DT22 → premessa dopo APPROFONDIMENTI; rombi ai lati della box.
+         CSS con ?v=22.
          (La versione DT9 non è mai stata rilasciata.)
