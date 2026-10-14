@@ -1,5 +1,7 @@
 # enneagramma-dinamico
-Enneagramma — Il Viaggio dell'Essere (versione DT26).
-Sito in italiano con gadget bilingue: bandierine 🇮🇹/🇬🇧 nel menu; traduzione
-sul posto con il widget Google Translate (fix: il proxy translate.goog non
-funziona su github.io). Base: DT23. Vedi ISTRUZIONI.txt e ISTRUZIONI-INSTALLAZIONE.txt.
+Enneagramma — Il Viaggio dell'Essere (versione DT23).
+
+Novità v23: spazio extra prima della box formule nella pagina Il
+simbolo; il file delle istruzioni di installazione ha ora nome fisso
+ISTRUZIONI-INSTALLAZIONE.txt, senza numero di versione.
+Vedi ISTRUZIONI.txt e ISTRUZIONI-INSTALLAZIONE.txt.
